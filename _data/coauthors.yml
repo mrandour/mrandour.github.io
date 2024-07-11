@@ -1,34 +1,83 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"bouyer":
+  - firstname: ["Patricia", "P."]
+    url: https://lmf.cnrs.fr/PatriciaBouyer/
+    
+"brihaye":
+  - firstname: ["Thomas", "T."]
+    url: https://scholar.google.be/citations?user=6tv1sJUAAAAJ&hl=fr
+    
+"bruyere":
+  - firstname: ["Véronique", "V."]
+    url: https://web.umons.ac.be/sith/
+    
+"casares":
+  - firstname: ["Antonio", "A."]
+    url: https://antonio-casares.github.io/
+    
+"chatterjee":
+  - firstname: ["Krishnendu", "K."]
+    url: https://pub.ista.ac.at/~kchatterjee/
+    
+"doyen":
+  - firstname: ["Laurent", "L."]
+    url: http://www.lsv.fr/~doyen/
+    
+"fijalkow":
+  - firstname: ["Nathanaël", "N."]
+    url: https://games-automata-play.com/
+    
+"filiot":
+  - firstname: ["Emmanuel", "E."]
+    url: https://verif.ulb.ac.be/efiliot/
+    
+"goeminne":
+  - firstname: ["Aline", "A."]
+    url: https://alinegoeminne.github.io/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"katoen":
+  - firstname: ["Joost-Pieter", "J.-P."]
+    url: https://www-i2.informatik.rwth-aachen.de/~katoen/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"larsen":
+  - firstname: ["Kim G.", "Kim Guldstrand","K. G."]
+    url: https://kgl.cs.aau.dk/
+    
+"le roux":
+  - firstname: ["Stéphane", "S."]
+    url: http://www.lsv.fr/~leroux/
+    
+"main":
+  - firstname: ["James", "James C. A.", "J. C. A."]
+    url: https://alexandermain.github.io/
+    
+"markey":
+  - firstname: ["Nicolas", "N."]
+    url: https://people.irisa.fr/Nicolas.Markey/?l=fr
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"oualhadj":
+  - firstname: ["Youssouf", "Y."]
+    url: https://www.lacl.fr/~youalhadj/index.php?lang=FR
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"quatmann":
+  - firstname: ["Tim", "T."]
+    url: https://moves.rwth-aachen.de/people/quatmann/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"raskin":
+  - firstname: ["Jean-François", "J.-F."]
+    url: https://verif.ulb.ac.be/jfr/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"sankur":
+  - firstname: ["Ocan", "O."]
+    url: https://people.irisa.fr/Ocan.Sankur/
+    
+"sproston":
+  - firstname: ["Jeremy", "J."]
+    url: http://www.di.unito.it/~sproston/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"vandenhove":
+  - firstname: ["Pierre", "P."]
+    url: https://pierre-vandenhove.github.io/
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"zimmermann":
+  - firstname: ["Martin", "M."]
+    url: https://homes.cs.aau.dk/~mzi/

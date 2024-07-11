@@ -1,114 +1,1578 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{DBLP:journals/lmcs/BouyerORV23,
+  author       = {Patricia Bouyer and
+                  Youssouf Oualhadj and
+                  Mickael Randour and
+                  Pierre Vandenhove},
+  title        = {Arena-Independent Finite-Memory Determinacy in Stochastic Games},
+  journal      = {Logical Methods in Computer Science},
+  volume       = {19},
+  number       = {4},
+  year         = {2023},
+  url          = {https://doi.org/10.46298/lmcs-19(4:18)2023},
+  doi          = {10.46298/LMCS-19(4:18)2023},
+  timestamp    = {Tue, 23 Jan 2024 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/journals/lmcs/BouyerORV23.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  bibtex_show  = {true},
+  abbr         = {LMCS},
+  abstract     = {We study stochastic zero-sum games on graphs, which are prevalent tools to model decision-making in presence of an antagonistic opponent in a random environment. In this setting, an important question is the one of strategy complexity: what kinds of strategies are sufficient or required to play optimally (e.g., randomization or memory requirements)? Our contributions further the understanding of arena-independent finite-memory (AIFM) determinacy, i.e., the study of objectives for which memory is needed, but in a way that only depends on limited parameters of the game graphs. First, we show that objectives for which pure AIFM strategies suffice to play optimally also admit pure AIFM subgame perfect strategies. Second, we show that we can reduce the study of objectives for which pure AIFM strategies suffice in two-player stochastic games to the easier study of one-player stochastic games (i.e., Markov decision processes). Third, we characterize the sufficiency of AIFM strategies through two intuitive properties of objectives. This work extends a line of research started on deterministic games to stochastic ones.},
+  arxiv        = {2102.10104} 
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{DBLP:journals/theoretics/BouyerRV23,
+  author       = {Patricia Bouyer and
+                  Mickael Randour and
+                  Pierre Vandenhove},
+  title        = {Characterizing Omega-Regularity through Finite-Memory Determinacy
+                  of Games on Infinite Graphs},
+  journal      = {TheoretiCS},
+  volume       = {2},
+  year         = {2023},
+  url          = {https://doi.org/10.46298/theoretics.23.1},
+  doi          = {10.46298/THEORETICS.23.1},
+  timestamp    = {Sat, 30 Sep 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/theoretics/BouyerRV23.bib},
+  bibtex_show  = {true},
+  abbr         = {TheoretiCS},
+  arxiv        = {2110.01276},
+  abstract     = {We consider zero-sum games on infinite graphs, with objectives specified as sets of infinite words over some alphabet of colors. A well-studied class of objectives is the one of ω-regular objectives, due to its relation to many natural problems in theoretical computer science. We focus on the strategy complexity question: given an objective, how much memory does each player require to play as well as possible? A classical result is that finite-memory strategies suffice for both players when the objective is ω-regular. We show a reciprocal of that statement: when both players can play optimally with a chromatic finite-memory structure (i.e., whose updates can only observe colors) in all infinite game graphs, then the objective must be ω-regular. This provides a game-theoretic characterization of ω-regular objectives, and this characterization can help in obtaining memory bounds. Moreover, a by-product of our characterization is a new one-to-two-player lift: to show that chromatic finite-memory structures suffice to play optimally in two-player games on infinite graphs, it suffices to show it in the simpler case of one-player games on infinite graphs. We illustrate our results with the family of discounted-sum objectives, for which ω-regularity depends on the value of some parameters.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{DBLP:conf/fsttcs/BrihayeGMR23,
+  author       = {Thomas Brihaye and
+                  Aline Goeminne and
+                  James C. A. Main and
+                  Mickael Randour},
+  editor       = {Patricia Bouyer and
+                  Srikanth Srinivasan},
+  title        = {Reachability Games and Friends: {A} Journey Through the Lens of Memory
+                  and Complexity},
+  booktitle    = {43rd {IARCS} Annual Conference on Foundations of Software Technology
+                  and Theoretical Computer Science, {FSTTCS} 2023, December 18-20, 2023,
+                  {IIIT} Hyderabad, Telangana, India},
+  series       = {LIPIcs},
+  volume       = {284},
+  pages        = {1:1--1:26},
+  publisher    = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},
+  year         = {2023},
+  url          = {https://doi.org/10.4230/LIPIcs.FSTTCS.2023.1},
+  doi          = {10.4230/LIPICS.FSTTCS.2023.1},
+  timestamp    = {Wed, 13 Dec 2023 14:08:06 +0100},
+  biburl       = {https://dblp.org/rec/conf/fsttcs/BrihayeGMR23.bib},
+  bibtex_show  = {true},
+  abbr         = {FSTTCS},
+  pdf          = {https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.FSTTCS.2023.1},
+  abstract     = {Reachability objectives are arguably the most basic ones in the theory of games on graphs (and beyond). But far from being bland, they constitute the cornerstone of this field. Reachability is everywhere, as are the tools we use to reason about it. In this invited contribution, we take the reader on a journey through a zoo of models that have reachability objectives at their core. Our goal is to illustrate how model complexity impacts the complexity of strategies needed to play optimally in the corresponding games and computational complexity.},
+  award        = {Keynote lecture at FSTTCS’23.},
+  award_name   = {Invited paper},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true}
+@inproceedings{DBLP:conf/icalp/BouyerFRV23,
+  author       = {Patricia Bouyer and
+                  Nathana{\"{e}}l Fijalkow and
+                  Mickael Randour and
+                  Pierre Vandenhove},
+  editor       = {Kousha Etessami and
+                  Uriel Feige and
+                  Gabriele Puppis},
+  title        = {How to Play Optimally for Regular Objectives?},
+  booktitle    = {50th International Colloquium on Automata, Languages, and Programming,
+                  {ICALP} 2023, July 10-14, 2023, Paderborn, Germany},
+  series       = {LIPIcs},
+  volume       = {261},
+  pages        = {118:1--118:18},
+  publisher    = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},
+  year         = {2023},
+  url          = {https://doi.org/10.4230/LIPIcs.ICALP.2023.118},
+  doi          = {10.4230/LIPICS.ICALP.2023.118},
+  timestamp    = {Sat, 30 Sep 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/conf/icalp/BouyerFRV23.bib},
+  bibtex_show  = {true},
+  abbr         = {ICALP},
+  arxiv        = {2210.09703},
+  abstract     = {This paper studies two-player zero-sum games played on graphs and makes contributions toward the following question: given an objective, how much memory is required to play optimally for that objective? We study regular objectives, where the goal of one of the two players is that eventually the sequence of colors along the play belongs to some regular language of finite words. We obtain different characterizations of the chromatic memory requirements for such objectives for both players, from which we derive complexity-theoretic statements: deciding whether there exist small memory structures sufficient to play optimally is NP-complete for both players. Some of our characterization results apply to a more general class of objectives: topologically closed and topologically open sets.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{DBLP:conf/ijcai/BouyerCRV23,
+  author       = {Patricia Bouyer and
+                  Antonio Casares and
+                  Mickael Randour and
+                  Pierre Vandenhove},
+  title        = {Half-Positional Objectives Recognized by Deterministic B{\"{u}}chi
+                  Automata (Extended Abstract)},
+  booktitle    = {Proceedings of the Thirty-Second International Joint Conference on
+                  Artificial Intelligence, {IJCAI} 2023, 19th-25th August 2023, Macao,
+                  SAR, China},
+  pages        = {6420--6425},
+  publisher    = {ijcai.org},
+  year         = {2023},
+  url          = {https://doi.org/10.24963/ijcai.2023/713},
+  doi          = {10.24963/IJCAI.2023/713},
+  timestamp    = {Mon, 28 Aug 2023 17:23:07 +0200},
+  biburl       = {https://dblp.org/rec/conf/ijcai/BouyerCRV23.bib},
+  bibtex_show  = {true},
+  award        = {IJCAI’23 – Sister Conferences Best Papers Track.},
+  award_name   = {Invited paper},
+  abbr         = {IJCAI},
+  pdf          = {https://www.ijcai.org/proceedings/2023/0713.pdf},
+  abstract     = {In two-player zero-sum games on graphs, the protagonist tries to achieve an objective while the antagonist aims to prevent it. Objectives for which both players do not need to use memory to play optimally are well-understood and characterized both in finite and infinite graphs. Less is known about the larger class of half-positional objectives, i.e., those for which the protagonist does not need memory (but for which the antagonist might). In particular, no characterization of half-positionality is known for the central class of ω-regular objectives. Here, we characterize objectives recognizable by deterministic Büchi automata (a class of ω-regular objectives) that are half-positional, both over finite and infinite graphs. This characterization yields a polynomial-time algorithm to decide half-positionality of an objective recognized by a given deterministic Büchi automaton.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@book{DBLP:journals/corr/abs-2305-10546,
+  author       = {Nathana{\"{e}}l Fijalkow and
+                  Nathalie Bertrand and
+                  Patricia Bouyer{-}Decitre and
+                  Romain Brenguier and
+                  Arnaud Carayol and
+                  John Fearnley and
+                  Hugo Gimbert and
+                  Florian Horn and
+                  Rasmus Ibsen{-}Jensen and
+                  Nicolas Markey and
+                  Benjamin Monmege and
+                  Petr Novotn{\'{y}} and
+                  Mickael Randour and
+                  Ocan Sankur and
+                  Sylvain Schmitz and
+                  Olivier Serre and
+                  Mateusz Skomra},
+  title        = {Games on Graphs},
+  journal      = {CoRR},
+  volume       = {abs/2305.10546},
+  year         = {2023},
+  url          = {https://doi.org/10.48550/arXiv.2305.10546},
+  doi          = {10.48550/ARXIV.2305.10546},
+  eprinttype    = {arXiv},
+  eprint       = {2305.10546},
+  timestamp    = {Thu, 25 May 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2305-10546.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  arxiv        = {2305.10546},
+  bibtex_show  = {true},
+  abstract     = {The objective of this collaborative textbook is to present the state of the art on games on graphs, which is part of a larger research topic called game theory. Games on graphs is the field concerned with games whose rules and evolution are represented by a graph.},
+  abbr         = {Book}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+article{DBLP:journals/eatcs/AcetoKRS22,
+  author       = {Luca Aceto and
+                  Orna Kupferman and
+                  Mickael Randour and
+                  Davide Sangiorgi},
+  title        = {Interviews with the 2022 {CONCUR} Test-of-Time Award Recipients},
+  journal      = {Bull. {EATCS}},
+  volume       = {138},
+  year         = {2022},
+  url          = {http://eatcs.org/beatcs/index.php/beatcs/article/view/735},
+  timestamp    = {Wed, 31 Jan 2024 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/journals/eatcs/AcetoKRS22.bib},
+  bibtex_show  = {true},
+  abbr         = {},
+  arxiv        = {},
+  abstract     = {},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+@article{DBLP:journals/iandc/BouyerBRRV22,
+  author       = {Patricia Bouyer and
+                  Thomas Brihaye and
+                  Mickael Randour and
+                  C{\'{e}}dric Rivi{\`{e}}re and
+                  Pierre Vandenhove},
+  title        = {Decisiveness of stochastic systems and its application to hybrid models},
+  journal      = {Information and Computation},
+  volume       = {289},
+  number       = {Part},
+  pages        = {104861},
+  year         = {2022},
+  url          = {https://doi.org/10.1016/j.ic.2021.104861},
+  doi          = {10.1016/J.IC.2021.104861},
+  timestamp    = {Sun, 12 Feb 2023 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/journals/iandc/BouyerBRRV22.bib},
+  bibtex_show  = {true},
+  abbr         = {Inf. Comput.},
+  arxiv        = {2009.13152},
+  abstract     = {In [ABM07], Abdulla et al. introduced the concept of decisiveness, an interesting tool for lifting good properties of finite Markov chains to denumerable ones. Later, this concept was extended to more general stochastic transition systems (STSs), allowing the design of various verification algorithms for large classes of (infinite) STSs. We further improve the understanding and utility of decisiveness in two ways. First, we provide a general criterion for proving decisiveness of general STSs. This criterion, which is very natural but whose proof is rather technical, (strictly) generalizes all known criteria from the literature. Second, we focus on stochastic hybrid systems (SHSs), a stochastic extension of hybrid systems. We establish the decisiveness of a large class of SHSs and, under a few classical hypotheses from mathematical logic, we show how to decide reachability problems in this class, even though they are undecidable for general SHSs. This provides a decidable stochastic extension of o-minimal hybrid systems. [ABM07] Parosh A. Abdulla, Noomene Ben Henda, and Richard Mayr. 2007. Decisive Markov Chains. Log. Methods Comput. Sci. 3, 4 (2007).},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@article{DBLP:journals/lmcs/BouyerRORV22,
+  author       = {Patricia Bouyer and
+                  Stéphane Le Roux and
+                  Youssouf Oualhadj and
+                  Mickael Randour and
+                  Pierre Vandenhove},
+  title        = {Games Where You Can Play Optimally with Arena-Independent Finite Memory},
+  journal      = {Logical Methods in Computer Science},
+  volume       = {18},
+  number       = {1},
+  year         = {2022},
+  url          = {https://doi.org/10.46298/lmcs-18(1:11)2022},
+  doi          = {10.46298/LMCS-18(1:11)2022},
+  timestamp    = {Tue, 31 Jan 2023 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/journals/lmcs/BouyerRORV22.bib},
+  bibtex_show  = {true},
+  abbr         = {LMCS},
+  arxiv        = {2001.03894},
+  abstract     = {For decades, two-player (antagonistic) games on graphs have been a framework of choice for many important problems in theoretical computer science. A notorious one is controller synthesis, which can be rephrased through the game-theoretic metaphor as the quest for a winning strategy of the system in a game against its antagonistic environment. Depending on the specification, optimal strategies might be simple or quite complex, for example having to use (possibly infinite) memory. Hence, research strives to understand which settings allow for simple strategies. In 2005, Gimbert and Zielonka provided a complete characterization of preference relations (a formal framework to model specifications and game objectives) that admit memoryless optimal strategies for both players. In the last fifteen years however, practical applications have driven the community toward games with complex or multiple objectives, where memory -- finite or infinite -- is almost always required. Despite much effort, the exact frontiers of the class of preference relations that admit finite-memory optimal strategies still elude us. In this work, we establish a complete characterization of preference relations that admit optimal strategies using arena-independent finite memory, generalizing the work of Gimbert and Zielonka to the finite-memory case. We also prove an equivalent to their celebrated corollary of great practical interest: if both players have optimal (arena-independent-)finite-memory strategies in all one-player games, then it is also the case in all two-player games. Finally, we pinpoint the boundaries of our results with regard to the literature: our work completely covers the case of arena-independent memory (e.g., multiple parity objectives, lower- and upper-bounded energy objectives), and paves the way to the arena-dependent case (e.g., multiple lower-bounded energy objectives).},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+inproceedings{DBLP:conf/concur/CastellaniGKRS22,
+  author       = {Ilaria Castellani and
+                  Paul Gastin and
+                  Orna Kupferman and
+                  Mickael Randour and
+                  Davide Sangiorgi},
+  editor       = {Bartek Klin and
+                  Slawomir Lasota and
+                  Anca Muscholl},
+  title        = {{CONCUR} Test-Of-Time Award 2022 (Invited Paper)},
+  booktitle    = {33rd International Conference on Concurrency Theory, {CONCUR} 2022,
+                  September 12-16, 2022, Warsaw, Poland},
+  series       = {LIPIcs},
+  volume       = {243},
+  pages        = {1:1--1:3},
+  publisher    = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},
+  year         = {2022},
+  url          = {https://doi.org/10.4230/LIPIcs.CONCUR.2022.1},
+  doi          = {10.4230/LIPICS.CONCUR.2022.1},
+  timestamp    = {Mon, 26 Sep 2022 16:25:34 +0200},
+  biburl       = {https://dblp.org/rec/conf/concur/CastellaniGKRS22.bib},
+  bibtex_show  = {true},
+  abbr         = {},
+  arxiv        = {},
+  abstract     = {},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/concur/BouyerCRV22,
+  author       = {Patricia Bouyer and
+                  Antonio Casares and
+                  Mickael Randour and
+                  Pierre Vandenhove},
+  editor       = {Bartek Klin and
+                  Slawomir Lasota and
+                  Anca Muscholl},
+  title        = {Half-Positional Objectives Recognized by Deterministic B{\"{u}}chi
+                  Automata},
+  booktitle    = {33rd International Conference on Concurrency Theory, {CONCUR} 2022,
+                  September 12-16, 2022, Warsaw, Poland},
+  series       = {LIPIcs},
+  volume       = {243},
+  pages        = {20:1--20:18},
+  publisher    = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},
+  year         = {2022},
+  url          = {https://doi.org/10.4230/LIPIcs.CONCUR.2022.20},
+  doi          = {10.4230/LIPICS.CONCUR.2022.20},
+  timestamp    = {Sun, 12 Feb 2023 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/conf/concur/BouyerCRV22.bib},
+  bibtex_show  = {true},
+  abbr         = {CONCUR},
+  arxiv        = {2205.01365},
+  abstract     = {In two-player games on graphs, the simplest possible strategies are those that can be implemented without any memory. These are called positional strategies. In this paper, we characterize objectives recognizable by deterministic Büchi automata (a subclass of omega-regular objectives) that are half-positional, that is, for which the protagonist can always play optimally using positional strategies (both over finite and infinite graphs). Our characterization consists of three natural conditions linked to the language-theoretic notion of right congruence. Furthermore, this characterization yields a polynomial-time algorithm to decide half-positionality of an objective recognized by a given deterministic Büchi automaton.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/concur/MainR22,
+  author       = {James C. A. Main and
+                  Mickael Randour},
+  editor       = {Bartek Klin and
+                  Slawomir Lasota and
+                  Anca Muscholl},
+  title        = {Different Strokes in Randomised Strategies: Revisiting Kuhn's Theorem
+                  Under Finite-Memory Assumptions},
+  booktitle    = {33rd International Conference on Concurrency Theory, {CONCUR} 2022,
+                  September 12-16, 2022, Warsaw, Poland},
+  series       = {LIPIcs},
+  volume       = {243},
+  pages        = {22:1--22:18},
+  publisher    = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},
+  year         = {2022},
+  url          = {https://doi.org/10.4230/LIPIcs.CONCUR.2022.22},
+  doi          = {10.4230/LIPICS.CONCUR.2022.22},
+  timestamp    = {Mon, 26 Sep 2022 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/conf/concur/MainR22.bib},
+  bibtex_show  = {true},
+  abbr         = {CONCUR},
+  arxiv        = {2201.10825},
+  abstract     = {Two-player (antagonistic) games on (possibly stochastic) graphs are a prevalent model in theoretical computer science, notably as a framework for reactive synthesis. Optimal strategies may require randomisation when dealing with inherently probabilistic goals, balancing multiple objectives, or in contexts of partial information. There is no unique way to define randomised strategies. For instance, one can use so-called mixed strategies or behavioural ones. In the most general settings, these two classes do not share the same expressiveness. A seminal result in game theory - Kuhn's theorem - asserts their equivalence in games of perfect recall. This result crucially relies on the possibility for strategies to use infinite memory, i.e., unlimited knowledge of all past observations. However, computer systems are finite in practice. Hence it is pertinent to restrict our attention to finite-memory strategies, defined as automata with outputs. Randomisation can be implemented in these in different ways: the initialisation, outputs or transitions can be randomised or deterministic respectively. Depending on which aspects are randomised, the expressiveness of the corresponding class of finite-memory strategies differs. In this work, we study two-player turn-based stochastic games and provide a complete taxonomy of the classes of finite-memory strategies obtained by varying which of the three aforementioned components are randomised. Our taxonomy holds both in settings of perfect and imperfect information, and in games with more than two players.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/formats/MainRS22,
+  author       = {James C. A. Main and
+                  Mickael Randour and
+                  Jeremy Sproston},
+  editor       = {Sergiy Bogomolov and
+                  David Parker},
+  title        = {Timed Games with Bounded Window Parity Objectives},
+  booktitle    = {Formal Modeling and Analysis of Timed Systems - 20th International
+                  Conference, {FORMATS} 2022, Warsaw, Poland, September 13-15, 2022,
+                  Proceedings},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {13465},
+  pages        = {165--182},
+  publisher    = {Springer},
+  year         = {2022},
+  url          = {https://doi.org/10.1007/978-3-031-15839-1\_10},
+  doi          = {10.1007/978-3-031-15839-1\_10},
+  timestamp    = {Mon, 24 Oct 2022 20:51:03 +0200},
+  biburl       = {https://dblp.org/rec/conf/formats/MainRS22.bib},
+  bibtex_show  = {true},
+  abbr         = {FORMATS},
+  arxiv        = {2205.04197},
+  abstract     = {The window mechanism, introduced by Chatterjee et al. for mean-payoff and total-payoff objectives in two-player turn-based games on graphs, refines long-term objectives with time bounds. This mechanism has proven useful in a variety of settings, and most recently in timed systems. In the timed setting, the so-called fixed timed window parity objectives have been studied. A fixed timed window parity objective is defined with respect to some time bound and requires that, at all times, we witness a time frame, i.e., a window, of size less than the fixed bound in which the smallest priority is even. In this work, we focus on the bounded timed window parity objective. Such an objective is satisfied if there exists some bound for which the fixed objective is satisfied. The satisfaction of bounded objectives is robust to modeling choices such as constants appearing in constraints, unlike fixed objectives, for which the choice of constants may affect the satisfaction for a given bound. We show that verification of bounded timed window objectives in timed automata can be performed in polynomial space, and that timed games with these objectives can be solved in exponential time, even for multi-objective extensions. This matches the complexity classes of the fixed case. We also provide a comparison of the different variants of window parity objectives.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/fsttcs/BouyerRV22,
+  author       = {Patricia Bouyer and
+                  Mickael Randour and
+                  Pierre Vandenhove},
+  editor       = {Anuj Dawar and
+                  Venkatesan Guruswami},
+  title        = {The True Colors of Memory: {A} Tour of Chromatic-Memory Strategies
+                  in Zero-Sum Games on Graphs (Invited Talk)},
+  booktitle    = {42nd {IARCS} Annual Conference on Foundations of Software Technology
+                  and Theoretical Computer Science, {FSTTCS} 2022, December 18-20, 2022,
+                  {IIT} Madras, Chennai, India},
+  series       = {LIPIcs},
+  volume       = {250},
+  pages        = {3:1--3:18},
+  publisher    = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},
+  year         = {2022},
+  url          = {https://doi.org/10.4230/LIPIcs.FSTTCS.2022.3},
+  doi          = {10.4230/LIPICS.FSTTCS.2022.3},
+  timestamp    = {Tue, 21 Mar 2023 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/conf/fsttcs/BouyerRV22.bib},
+  bibtex_show  = {true},
+  award        = {Keynote lecture at FSTTCS'22.},
+  award_name   = {Invited paper},
+  abbr         = {FSTTCS},
+  pdf          = {https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.FSTTCS.2022.3},
+  abstract     = {Two-player turn-based zero-sum games on (finite or infinite) graphs are a central framework in theoretical computer science - notably as a tool for controller synthesis, but also due to their connection with logic and automata theory. A crucial challenge in the field is to understand how complex strategies need to be to play optimally, given a type of game and a winning objective. In this invited contribution, we give a tour of recent advances aiming to characterize games where finite-memory strategies suffice (i.e., using a limited amount of information about the past). We mostly focus on so-called chromatic memory, which is limited to using colors - the basic building blocks of objectives - seen along a play to update itself. Chromatic memory has the advantage of being usable in different game graphs, and the corresponding class of strategies turns out to be of great interest to both the practical and the theoretical sides},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/stacs/BouyerRV22,
+  author       = {Patricia Bouyer and
+                  Mickael Randour and
+                  Pierre Vandenhove},
+  editor       = {Petra Berenbrink and
+                  Benjamin Monmege},
+  title        = {Characterizing Omega-Regularity Through Finite-Memory Determinacy
+                  of Games on Infinite Graphs},
+  booktitle    = {39th International Symposium on Theoretical Aspects of Computer Science,
+                  {STACS} 2022, March 15-18, 2022, Marseille, France (Virtual Conference)},
+  series       = {LIPIcs},
+  volume       = {219},
+  pages        = {16:1--16:16},
+  publisher    = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},
+  year         = {2022},
+  url          = {https://doi.org/10.4230/LIPIcs.STACS.2022.16},
+  doi          = {10.4230/LIPICS.STACS.2022.16},
+  timestamp    = {Sun, 12 Feb 2023 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/conf/stacs/BouyerRV22.bib},
+  bibtex_show  = {true},
+  abbr         = {STACS},
+  arxiv        = {2110.01276},
+  abstract     = {We consider zero-sum games on infinite graphs, with objectives specified as sets of infinite words over some alphabet of colors. A well-studied class of objectives is the one of ω-regular objectives, due to its relation to many natural problems in theoretical computer science. We focus on the strategy complexity question: given an objective, how much memory does each player require to play as well as possible? A classical result is that finite-memory strategies suffice for both players when the objective is ω-regular. We show a reciprocal of that statement: when both players can play optimally with a chromatic finite-memory structure (i.e., whose updates can only observe colors) in all infinite game graphs, then the objective must be ω-regular. This provides a game-theoretic characterization of ω-regular objectives, and this characterization can help in obtaining memory bounds. Moreover, a by-product of our characterization is a new one-to-two-player lift: to show that chromatic finite-memory structures suffice to play optimally in two-player games on infinite graphs, it suffices to show it in the simpler case of one-player games on infinite graphs. We illustrate our results with the family of discounted-sum objectives, for which ω-regularity depends on the value of some parameters.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+article{DBLP:journals/corr/abs-2201-10825,
+  author       = {James C. A. Main and
+                  Mickael Randour},
+  title        = {Different strokes in randomised strategies: Revisiting Kuhn's theorem
+                  under finite-memory assumptions},
+  journal      = {CoRR},
+  volume       = {abs/2201.10825},
+  year         = {2022},
+  url          = {https://arxiv.org/abs/2201.10825},
+  eprinttype    = {arXiv},
+  eprint       = {2201.10825},
+  timestamp    = {Tue, 01 Feb 2022 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2201-10825.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+article{DBLP:journals/corr/abs-2205-01365,
+  author       = {Patricia Bouyer and
+                  Antonio Casares and
+                  Mickael Randour and
+                  Pierre Vandenhove},
+  title        = {Half-Positional Objectives Recognized by Deterministic B{\"{u}}chi
+                  Automata},
+  journal      = {CoRR},
+  volume       = {abs/2205.01365},
+  year         = {2022},
+  url          = {https://doi.org/10.48550/arXiv.2205.01365},
+  doi          = {10.48550/ARXIV.2205.01365},
+  eprinttype    = {arXiv},
+  eprint       = {2205.01365},
+  timestamp    = {Thu, 05 May 2022 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2205-01365.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+article{DBLP:journals/corr/abs-2205-04197,
+  author       = {James C. A. Main and
+                  Mickael Randour and
+                  Jeremy Sproston},
+  title        = {Timed Games with Bounded Window Parity Objectives},
+  journal      = {CoRR},
+  volume       = {abs/2205.04197},
+  year         = {2022},
+  url          = {https://doi.org/10.48550/arXiv.2205.04197},
+  doi          = {10.48550/ARXIV.2205.04197},
+  eprinttype    = {arXiv},
+  eprint       = {2205.04197},
+  timestamp    = {Wed, 11 May 2022 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2205-04197.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+article{DBLP:journals/corr/abs-2210-09703,
+  author       = {Patricia Bouyer and
+                  Nathana{\"{e}}l Fijalkow and
+                  Mickael Randour and
+                  Pierre Vandenhove},
+  title        = {How to Play Optimally for Regular Objectives?},
+  journal      = {CoRR},
+  volume       = {abs/2210.09703},
+  year         = {2022},
+  url          = {https://doi.org/10.48550/arXiv.2210.09703},
+  doi          = {10.48550/ARXIV.2210.09703},
+  eprinttype    = {arXiv},
+  eprint       = {2210.09703},
+  timestamp    = {Mon, 24 Oct 2022 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2210-09703.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/concur/MainRS21,
+  author       = {James C. A. Main and
+                  Mickael Randour and
+                  Jeremy Sproston},
+  editor       = {Serge Haddad and
+                  Daniele Varacca},
+  title        = {Time Flies When Looking out of the Window: Timed Games with Window
+                  Parity Objectives},
+  booktitle    = {32nd International Conference on Concurrency Theory, {CONCUR} 2021,
+                  August 24-27, 2021, Virtual Conference},
+  series       = {LIPIcs},
+  volume       = {203},
+  pages        = {25:1--25:16},
+  publisher    = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},
+  year         = {2021},
+  url          = {https://doi.org/10.4230/LIPIcs.CONCUR.2021.25},
+  doi          = {10.4230/LIPICS.CONCUR.2021.25},
+  timestamp    = {Fri, 13 Aug 2021 16:29:32 +0200},
+  biburl       = {https://dblp.org/rec/conf/concur/MainRS21.bib},
+  bibtex_show  = {true},
+  abbr         = {CONCUR},
+  arxiv        = {2105.06686},
+  abstract     = {The window mechanism was introduced by Chatterjee et al. to reinforce mean-payoff and total-payoff objectives with time bounds in two-player turn-based games on graphs. It has since proved useful in a variety of settings, including parity objectives in games and both mean-payoff and parity objectives in Markov decision processes. We study window parity objectives in timed automata and timed games: given a bound on the window size, a path satisfies such an objective if, in all states along the path, we see a sufficiently small window in which the smallest priority is even. We show that checking that all time-divergent paths of a timed automaton satisfy such a window parity objective can be done in polynomial space, and that the corresponding timed games can be solved in exponential time. This matches the complexity class of timed parity games, while adding the ability to reason about time bounds. We also consider multi-dimensional objectives and show that the complexity class does not increase. To the best of our knowledge, this is the first study of the window mechanism in a real-time setting.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/concur/BouyerORV21,
+  author       = {Patricia Bouyer and
+                  Youssouf Oualhadj and
+                  Mickael Randour and
+                  Pierre Vandenhove},
+  editor       = {Serge Haddad and
+                  Daniele Varacca},
+  title        = {Arena-Independent Finite-Memory Determinacy in Stochastic Games},
+  booktitle    = {32nd International Conference on Concurrency Theory, {CONCUR} 2021,
+                  August 24-27, 2021, Virtual Conference},
+  series       = {LIPIcs},
+  volume       = {203},
+  pages        = {26:1--26:18},
+  publisher    = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},
+  year         = {2021},
+  url          = {https://doi.org/10.4230/LIPIcs.CONCUR.2021.26},
+  doi          = {10.4230/LIPICS.CONCUR.2021.26},
+  timestamp    = {Sun, 12 Feb 2023 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/conf/concur/BouyerORV21.bib},
+  bibtex_show  = {true},
+  abbr         = {CONCUR},
+  arxiv        = {2102.10104},
+  abstract     = {We study stochastic zero-sum games on graphs, which are prevalent tools to model decision-making in presence of an antagonistic opponent in a random environment. In this setting, an important question is the one of strategy complexity: what kinds of strategies are sufficient or required to play optimally (e.g., randomization or memory requirements)? Our contributions further the understanding of arena-independent finite-memory (AIFM) determinacy, i.e., the study of objectives for which memory is needed, but in a way that only depends on limited parameters of the game graphs. First, we show that objectives for which pure AIFM strategies suffice to play optimally also admit pure AIFM subgame perfect strategies. Second, we show that we can reduce the study of objectives for which pure AIFM strategies suffice in two-player stochastic games to the easier study of one-player stochastic games (i.e., Markov decision processes). Third, we characterize the sufficiency of AIFM strategies through two intuitive properties of objectives. This work extends a line of research started on deterministic games to stochastic ones.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+article{DBLP:journals/corr/abs-2102-10104,
+  author       = {Patricia Bouyer and
+                  Youssouf Oualhadj and
+                  Mickael Randour and
+                  Pierre Vandenhove},
+  title        = {Arena-Independent Finite-Memory Determinacy in Stochastic Games},
+  journal      = {CoRR},
+  volume       = {abs/2102.10104},
+  year         = {2021},
+  url          = {https://arxiv.org/abs/2102.10104},
+  eprinttype    = {arXiv},
+  eprint       = {2102.10104},
+  timestamp    = {Sun, 02 Oct 2022 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2102-10104.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+article{DBLP:journals/corr/abs-2105-06686,
+  author       = {James C. A. Main and
+                  Mickael Randour and
+                  Jeremy Sproston},
+  title        = {Time Flies When Looking out of the Window: Timed Games with Window
+                  Parity Objectives},
+  journal      = {CoRR},
+  volume       = {abs/2105.06686},
+  year         = {2021},
+  url          = {https://arxiv.org/abs/2105.06686},
+  eprinttype    = {arXiv},
+  eprint       = {2105.06686},
+  timestamp    = {Tue, 18 May 2021 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2105-06686.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+article{DBLP:journals/corr/abs-2110-01276,
+  author       = {Patricia Bouyer and
+                  Mickael Randour and
+                  Pierre Vandenhove},
+  title        = {Characterizing Omega-Regularity through Finite-Memory Determinacy
+                  of Games on Infinite Graphs},
+  journal      = {CoRR},
+  volume       = {abs/2110.01276},
+  year         = {2021},
+  url          = {https://arxiv.org/abs/2110.01276},
+  eprinttype    = {arXiv},
+  eprint       = {2110.01276},
+  timestamp    = {Fri, 08 Oct 2021 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2110-01276.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/lmcs/BrihayeDOR20,
+  author       = {Thomas Brihaye and
+                  Florent Delgrange and
+                  Youssouf Oualhadj and
+                  Mickael Randour},
+  title        = {Life is Random, Time is Not: Markov Decision Processes with Window
+                  Objectives},
+  journal      = {Logical Methods in Computer Science},
+  volume       = {16},
+  number       = {4},
+  year         = {2020},
+  url          = {https://lmcs.episciences.org/6975},
+  timestamp    = {Wed, 16 Dec 2020 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/journals/lmcs/BrihayeDOR20.bib},
+  bibtex_show  = {true},
+  abbr         = {LMCS},
+  arxiv        = {1901.03571},
+  abstract     = {The window mechanism was introduced by Chatterjee et al. to strengthen classical game objectives with time bounds. It permits to synthesize system controllers that exhibit acceptable behaviors within a configurable time frame, all along their infinite execution, in contrast to the traditional objectives that only require correctness of behaviors in the limit. The window concept has proved its interest in a variety of two-player zero-sum games because it enables reasoning about such time bounds in system specifications, but also thanks to the increased tractability that it usually yields. In this work, we extend the window framework to stochastic environments by considering Markov decision processes. A fundamental problem in this context is the threshold probability problem: given an objective it aims to synthesize strategies that guarantee satisfying runs with a given probability. We solve it for the usual variants of window objectives, where either the time frame is set as a parameter, or we ask if such a time frame exists. We develop a generic approach for window-based objectives and instantiate it for the classical mean-payoff and parity objectives, already considered in games. Our work paves the way to a wide use of the window mechanism in stochastic models.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/concur/Bouyer0ORV20,
+  author       = {Patricia Bouyer and
+                  St{\'{e}}phane Le Roux and
+                  Youssouf Oualhadj and
+                  Mickael Randour and
+                  Pierre Vandenhove},
+  editor       = {Igor Konnov and
+                  Laura Kov{\'{a}}cs},
+  title        = {Games Where You Can Play Optimally with Arena-Independent Finite Memory},
+  booktitle    = {31st International Conference on Concurrency Theory, {CONCUR} 2020,
+                  September 1-4, 2020, Vienna, Austria (Virtual Conference)},
+  series       = {LIPIcs},
+  volume       = {171},
+  pages        = {24:1--24:22},
+  publisher    = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},
+  year         = {2020},
+  url          = {https://doi.org/10.4230/LIPIcs.CONCUR.2020.24},
+  doi          = {10.4230/LIPICS.CONCUR.2020.24},
+  timestamp    = {Mon, 21 Dec 2020 13:23:22 +0100},
+  biburl       = {https://dblp.org/rec/conf/concur/Bouyer0ORV20.bib},
+  bibtex_show  = {true},
+  abbr         = {CONCUR},
+  arxiv        = {2001.03894},
+  abstract     = {For decades, two-player (antagonistic) games on graphs have been a framework of choice for many important problems in theoretical computer science. A notorious one is controller synthesis, which can be rephrased through the game-theoretic metaphor as the quest for a winning strategy of the system in a game against its antagonistic environment. Depending on the specification, optimal strategies might be simple or quite complex, for example having to use (possibly infinite) memory. Hence, research strives to understand which settings allow for simple strategies. In 2005, Gimbert and Zielonka provided a complete characterization of preference relations (a formal framework to model specifications and game objectives) that admit memoryless optimal strategies for both players. In the last fifteen years however, practical applications have driven the community toward games with complex or multiple objectives, where memory -- finite or infinite -- is almost always required. Despite much effort, the exact frontiers of the class of preference relations that admit finite-memory optimal strategies still elude us. In this work, we establish a complete characterization of preference relations that admit optimal strategies using arena-independent finite memory, generalizing the work of Gimbert and Zielonka to the finite-memory case. We also prove an equivalent to their celebrated corollary of great practical interest: if both players have optimal (arena-independent-)finite-memory strategies in all one-player games, then it is also the case in all two-player games. Finally, we pinpoint the boundaries of our results with regard to the literature: our work completely covers the case of arena-independent memory (e.g., multiple parity objectives, lower- and upper-bounded energy objectives), and paves the way to the arena-dependent case (e.g., multiple lower-bounded energy objectives).},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/tacas/DelgrangeKQR20,
+  author       = {Florent Delgrange and
+                  Joost{-}Pieter Katoen and
+                  Tim Quatmann and
+                  Mickael Randour},
+  editor       = {Armin Biere and
+                  David Parker},
+  title        = {Simple Strategies in Multi-Objective MDPs},
+  booktitle    = {Tools and Algorithms for the Construction and Analysis of Systems
+                  - 26th International Conference, {TACAS} 2020, Held as Part of the
+                  European Joint Conferences on Theory and Practice of Software, {ETAPS}
+                  2020, Dublin, Ireland, April 25-30, 2020, Proceedings, Part {I}},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {12078},
+  pages        = {346--364},
+  publisher    = {Springer},
+  year         = {2020},
+  url          = {https://doi.org/10.1007/978-3-030-45190-5\_19},
+  doi          = {10.1007/978-3-030-45190-5\_19},
+  timestamp    = {Fri, 14 May 2021 08:34:17 +0200},
+  biburl       = {https://dblp.org/rec/conf/tacas/DelgrangeKQR20.bib},
+  bibtex_show  = {true},
+  abbr         = {TACAS},
+  arxiv        = {1910.11024},
+  abstract     = {We consider the verification of multiple expected reward objectives at once on Markov decision processes (MDPs). This enables a trade-off analysis among multiple objectives by obtaining the Pareto front. We focus on strategies that are easy to employ and implement. That is, strategies that are pure (no randomization) and have bounded memory. We show that checking whether a point is achievable by a pure stationary strategy is NP-complete, even for two objectives, and we provide an MILP encoding to solve the corresponding problem. The bounded memory case can be reduced to the stationary one by a product construction. Experimental results using Storm and Gurobi show the feasibility of our algorithms.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:journals/corr/abs-2001-04347,
+  author       = {Patricia Bouyer and
+                  Thomas Brihaye and
+                  Mickael Randour and
+                  C{\'{e}}dric Rivi{\`{e}}re and
+                  Pierre Vandenhove},
+  editor       = {Jean{-}Fran{\c{c}}ois Raskin and
+                  Davide Bresolin},
+  title        = {Decisiveness of Stochastic Systems and its Application to Hybrid Models},
+  booktitle    = {Proceedings 11th International Symposium on Games, Automata, Logics,
+                  and Formal Verification, GandALF 2020, Brussels, Belgium, September
+                  21-22, 2020},
+  series       = {{EPTCS}},
+  volume       = {326},
+  pages        = {149--165},
+  year         = {2020},
+  url          = {https://doi.org/10.4204/EPTCS.326.10},
+  doi          = {10.4204/EPTCS.326.10},
+  timestamp    = {Sun, 12 Feb 2023 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2001-04347.bib},
+  bibtex_show  = {true},
+  abbr         = {GandALF},
+  arxiv        = {2009.13152},
+  abstract     = {In [ABM07], Abdulla et al. introduced the concept of decisiveness, an interesting tool for lifting good properties of finite Markov chains to denumerable ones. Later, this concept was extended to more general stochastic transition systems (STSs), allowing the design of various verification algorithms for large classes of (infinite) STSs. We further improve the understanding and utility of decisiveness in two ways. First, we provide a general criterion for proving decisiveness of general STSs. This criterion, which is very natural but whose proof is rather technical, (strictly) generalizes all known criteria from the literature. Second, we focus on stochastic hybrid systems (SHSs), a stochastic extension of hybrid systems. We establish the decisiveness of a large class of SHSs and, under a few classical hypotheses from mathematical logic, we show how to decide reachability problems in this class, even though they are undecidable for general SHSs. This provides a decidable stochastic extension of o-minimal hybrid systems. [ABM07] Parosh A. Abdulla, Noomene Ben Henda, and Richard Mayr. 2007. Decisive Markov Chains. Log. Methods Comput. Sci. 3, 4 (2007).},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+article{DBLP:journals/corr/abs-2001-03894,
+  author       = {Patricia Bouyer and
+                  St{\'{e}}phane Le Roux and
+                  Youssouf Oualhadj and
+                  Mickael Randour and
+                  Pierre Vandenhove},
+  title        = {Games Where You Can Play Optimally with Finite Memory},
+  journal      = {CoRR},
+  volume       = {abs/2001.03894},
+  year         = {2020},
+  url          = {https://arxiv.org/abs/2001.03894},
+  eprinttype    = {arXiv},
+  eprint       = {2001.03894},
+  timestamp    = {Sun, 02 Oct 2022 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2001-03894.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+article{DBLP:journals/corr/abs-2009-13152,
+  author       = {Patricia Bouyer and
+                  Thomas Brihaye and
+                  Mickael Randour and
+                  C{\'{e}}dric Rivi{\`{e}}re and
+                  Pierre Vandenhove},
+  title        = {Decisiveness of Stochastic Systems and its Application to Hybrid Models
+                  (Full Version)},
+  journal      = {CoRR},
+  volume       = {abs/2009.13152},
+  year         = {2020},
+  url          = {https://arxiv.org/abs/2009.13152},
+  eprinttype    = {arXiv},
+  eprint       = {2009.13152},
+  timestamp    = {Wed, 30 Sep 2020 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2009-13152.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/concur/BrihayeDOR19,
+  author       = {Thomas Brihaye and
+                  Florent Delgrange and
+                  Youssouf Oualhadj and
+                  Mickael Randour},
+  editor       = {Wan J. Fokkink and
+                  Rob van Glabbeek},
+  title        = {Life Is Random, Time Is Not: Markov Decision Processes with Window
+                  Objectives},
+  booktitle    = {30th International Conference on Concurrency Theory, {CONCUR} 2019,
+                  August 27-30, 2019, Amsterdam, the Netherlands},
+  series       = {LIPIcs},
+  volume       = {140},
+  pages        = {8:1--8:18},
+  publisher    = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},
+  year         = {2019},
+  url          = {https://doi.org/10.4230/LIPIcs.CONCUR.2019.8},
+  doi          = {10.4230/LIPICS.CONCUR.2019.8},
+  timestamp    = {Sun, 02 Oct 2022 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/conf/concur/BrihayeDOR19.bib},
+  award        = {Best paper award at CONCUR 2019.},
+  award_name   = {Best paper},
+  bibtex_show  = {true},
+  abbr         = {CONCUR},
+  arxiv        = {1901.03571},
+  abstract     = {The window mechanism was introduced by Chatterjee et al. to strengthen classical game objectives with time bounds. It permits to synthesize system controllers that exhibit acceptable behaviors within a configurable time frame, all along their infinite execution, in contrast to the traditional objectives that only require correctness of behaviors in the limit. The window concept has proved its interest in a variety of two-player zero-sum games because it enables reasoning about such time bounds in system specifications, but also thanks to the increased tractability that it usually yields. In this work, we extend the window framework to stochastic environments by considering Markov decision processes. A fundamental problem in this context is the threshold probability problem: given an objective it aims to synthesize strategies that guarantee satisfying runs with a given probability. We solve it for the usual variants of window objectives, where either the time frame is set as a parameter, or we ask if such a time frame exists. We develop a generic approach for window-based objectives and instantiate it for the classical mean-payoff and parity objectives, already considered in games. Our work paves the way to a wide use of the window mechanism in stochastic models.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/concur/BruyereHRR19,
+  author       = {V{\'{e}}ronique Bruy{\`{e}}re and
+                  Quentin Hautem and
+                  Mickael Randour and
+                  Jean{-}Fran{\c{c}}ois Raskin},
+  editor       = {Wan J. Fokkink and
+                  Rob van Glabbeek},
+  title        = {Energy Mean-Payoff Games},
+  booktitle    = {30th International Conference on Concurrency Theory, {CONCUR} 2019,
+                  August 27-30, 2019, Amsterdam, the Netherlands},
+  series       = {LIPIcs},
+  volume       = {140},
+  pages        = {21:1--21:17},
+  publisher    = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},
+  year         = {2019},
+  url          = {https://doi.org/10.4230/LIPIcs.CONCUR.2019.21},
+  doi          = {10.4230/LIPICS.CONCUR.2019.21},
+  timestamp    = {Fri, 30 Aug 2019 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/conf/concur/BruyereHRR19.bib},
+  bibtex_show  = {true},
+  abbr         = {CONCUR},
+  arxiv        = {1907.01359},
+  abstract     = {In this paper, we study one-player and two-player energy mean-payoff games. Energy mean-payoff games are games of infinite duration played on a finite graph with edges labeled by 2-dimensional weight vectors. The objective of the first player (the protagonist) is to satisfy an energy objective on the first dimension and a mean-payoff objective on the second dimension. We show that optimal strategies for the first player may require infinite memory while optimal strategies for the second player (the antagonist) do not require memory. In the one-player case (where only the first player has choices), the problem of deciding who is the winner can be solved in polynomial time while for the two-player case we show co-NP membership and we give effective constructions for the infinite-memory optimal strategies of the protagonist.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+article{DBLP:journals/corr/abs-1901-03571,
+  author       = {Thomas Brihaye and
+                  Florent Delgrange and
+                  Youssouf Oualhadj and
+                  Mickael Randour},
+  title        = {Life is Random, Time is Not: Markov Decision Processes with Window
+                  Objectives},
+  journal      = {CoRR},
+  volume       = {abs/1901.03571},
+  year         = {2019},
+  url          = {http://arxiv.org/abs/1901.03571},
+  eprinttype    = {arXiv},
+  eprint       = {1901.03571},
+  timestamp    = {Fri, 01 Feb 2019 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-1901-03571.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+article{DBLP:journals/corr/abs-1907-01359,
+  author       = {V{\'{e}}ronique Bruy{\`{e}}re and
+                  Quentin Hautem and
+                  Mickael Randour and
+                  Jean{-}Fran{\c{c}}ois Raskin},
+  title        = {Energy mean-payoff games},
+  journal      = {CoRR},
+  volume       = {abs/1907.01359},
+  year         = {2019},
+  url          = {http://arxiv.org/abs/1907.01359},
+  eprinttype    = {arXiv},
+  eprint       = {1907.01359},
+  timestamp    = {Mon, 08 Jul 2019 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-1907-01359.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+article{DBLP:journals/corr/abs-1910-11024,
+  author       = {Florent Delgrange and
+                  Joost{-}Pieter Katoen and
+                  Tim Quatmann and
+                  Mickael Randour},
+  title        = {Simple Strategies in Multi-Objective MDPs (Technical Report)},
+  journal      = {CoRR},
+  volume       = {abs/1910.11024},
+  year         = {2019},
+  url          = {http://arxiv.org/abs/1910.11024},
+  eprinttype    = {arXiv},
+  eprint       = {1910.11024},
+  timestamp    = {Sat, 23 Jan 2021 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-1910-11024.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/acta/BouyerMRLL18,
+  author       = {Patricia Bouyer and
+                  Nicolas Markey and
+                  Mickael Randour and
+                  Kim G. Larsen and
+                  Simon Laursen},
+  title        = {Average-energy games},
+  journal      = {Acta Informatica},
+  volume       = {55},
+  number       = {2},
+  pages        = {91--127},
+  year         = {2018},
+  url          = {https://doi.org/10.1007/s00236-016-0274-1},
+  doi          = {10.1007/S00236-016-0274-1},
+  timestamp    = {Tue, 07 May 2024 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/acta/BouyerMRLL18.bib},
+  bibtex_show  = {true},
+  abbr         = {Acta Informatica},
+  arxiv        = {1512.08106},
+  abstract     = {Two-player quantitative zero-sum games provide a natural framework to synthesize controllers with performance guarantees for reactive systems within an uncontrollable environment. Classical settings include mean-payoff games, where the objective is to optimize the long-run average gain per action, and energy games, where the system has to avoid running out of energy. We study average-energy games, where the goal is to optimize the long-run average of the accumulated energy. We show that this objective arises naturally in several applications, and that it yields interesting connections with previous concepts in the literature. We prove that deciding the winner in such games is in NP ∩ coNP and at least as hard as solving mean-payoff games, and we establish that memoryless strategies suffice to win. We also consider the case where the system has to minimize the average-energy while maintaining the accumulated energy within predefined bounds at all times: this corresponds to operating with a finite-capacity storage for energy. We give results for one-player and two-player games, and establish complexity bounds and memory requirements.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/fsttcs/0001PR18,
+  author       = {St{\'{e}}phane Le Roux and
+                  Arno Pauly and
+                  Mickael Randour},
+  editor       = {Sumit Ganguly and
+                  Paritosh K. Pandya},
+  title        = {Extending Finite-Memory Determinacy by Boolean Combination of Winning
+                  Conditions},
+  booktitle    = {38th {IARCS} Annual Conference on Foundations of Software Technology
+                  and Theoretical Computer Science, {FSTTCS} 2018, December 11-13, 2018,
+                  Ahmedabad, India},
+  series       = {LIPIcs},
+  volume       = {122},
+  pages        = {38:1--38:20},
+  publisher    = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},
+  year         = {2018},
+  url          = {https://doi.org/10.4230/LIPIcs.FSTTCS.2018.38},
+  doi          = {10.4230/LIPICS.FSTTCS.2018.38},
+  timestamp    = {Tue, 11 Feb 2020 15:52:14 +0100},
+  biburl       = {https://dblp.org/rec/conf/fsttcs/0001PR18.bib},
+  bibtex_show  = {true},
+  abbr         = {FSTTCS},
+  arxiv        = {1808.05791},
+  abstract     = {We study finite-memory (FM) determinacy in games on finite graphs, a central question for applications in controller synthesis, as FM strategies correspond to implementable controllers. We establish general conditions under which FM strategies suffice to play optimally, even in a broad multi-objective setting. We show that our framework encompasses important classes of games from the literature, and permits to go further, using a unified approach. While such an approach cannot match ad-hoc proofs with regard to tightness of memory bounds, it has two advantages: first, it gives a widely-applicable criterion for FM determinacy; second, it helps to understand the cornerstones of FM determinacy, which are often hidden but common in proofs for specific (combinations of) winning conditions.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:journals/corr/abs-1809-03107,
+  author       = {Patricia Bouyer and
+                  Mauricio Gonz{\'{a}}lez and
+                  Nicolas Markey and
+                  Mickael Randour},
+  editor       = {Andrea Orlandini and
+                  Martin Zimmermann},
+  title        = {Multi-weighted Markov Decision Processes with Reachability Objectives},
+  booktitle    = {Proceedings Ninth International Symposium on Games, Automata, Logics,
+                  and Formal Verification, GandALF 2018, Saarbr{\"{u}}cken, Germany,
+                  26-28th September 2018},
+  series       = {{EPTCS}},
+  volume       = {277},
+  pages        = {250--264},
+  year         = {2018},
+  url          = {https://doi.org/10.4204/EPTCS.277.18},
+  doi          = {10.4204/EPTCS.277.18},
+  timestamp    = {Wed, 07 Dec 2022 23:00:49 +0100},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-1809-03107.bib},
+  bibtex_show  = {true},
+  abbr         = {GandALF},
+  arxiv        = {1809.03107},
+  abstract     = {In this paper, we are interested in the synthesis of schedulers in double-weighted Markov decision processes, which satisfy both a percentile constraint over a weighted reachability condition, and a quantitative constraint on the expected value of a random variable defined using a weighted reachability condition. This problem is inspired by the modelization of an electric-vehicle charging problem. We study the cartography of the problem, when one parameter varies, and show how a partial cartography can be obtained via two sequences of opimization problems. We discuss completeness and feasability of the method.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+article{DBLP:journals/corr/abs-1808-05791,
+  author       = {St{\'{e}}phane Le Roux and
+                  Arno Pauly and
+                  Mickael Randour},
+  title        = {Extending finite-memory determinacy by Boolean combination of winning
+                  conditions},
+  journal      = {CoRR},
+  volume       = {abs/1808.05791},
+  year         = {2018},
+  url          = {http://arxiv.org/abs/1808.05791},
+  eprinttype    = {arXiv},
+  eprint       = {1808.05791},
+  timestamp    = {Sun, 02 Sep 2018 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-1808-05791.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/fmsd/RandourRS17,
+  author       = {Mickael Randour and
+                  Jean{-}Fran{\c{c}}ois Raskin and
+                  Ocan Sankur},
+  title        = {Percentile queries in multi-dimensional Markov decision processes},
+  journal      = {Formal Methods in System Design},
+  volume       = {50},
+  number       = {2-3},
+  pages        = {207--248},
+  year         = {2017},
+  url          = {https://doi.org/10.1007/s10703-016-0262-7},
+  doi          = {10.1007/S10703-016-0262-7},
+  timestamp    = {Fri, 13 Mar 2020 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/journals/fmsd/RandourRS17.bib},
+  bibtex_show  = {true},
+  abbr         = {FMSD},
+  arxiv        = {1410.4801},
+  abstract     = {Markov decision processes (MDPs) with multi-dimensional weights are useful to analyze systems with multiple objectives that may be conflicting and require the analysis of trade-offs. We study the complexity of percentile queries in such MDPs and give algorithms to synthesize strategies that enforce such constraints. Given a multi-dimensional weighted MDP and a quantitative payoff function f, thresholds v_i (one per dimension), and probability thresholds α_i, we show how to compute a single strategy to enforce that for all dimensions i, the probability of outcomes ρ satisfying f_i(ρ)≥v_i is at least α_i. We consider classical quantitative payoffs from the literature (sup, inf, lim sup, lim inf, mean-payoff, truncated sum, discounted sum). Our work extends to the quantitative case the multi-objective model checking problem studied by Etessami et al. in unweighted MDPs.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/iandc/BruyereFRR17,
+  author       = {Véronique Bruyère and
+                  Emmanuel Filiot and
+                  Mickael Randour and
+                  Jean{-}Fran{\c{c}}ois Raskin},
+  title        = {Meet your expectations with guarantees: Beyond worst-case synthesis
+                  in quantitative games},
+  journal      = {Information and Computation},
+  volume       = {254},
+  pages        = {259--295},
+  year         = {2017},
+  url          = {https://doi.org/10.1016/j.ic.2016.10.011},
+  doi          = {10.1016/J.IC.2016.10.011},
+  timestamp    = {Sat, 05 Sep 2020 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/iandc/BruyereFRR17.bib},
+  bibtex_show  = {true},
+  abbr         = {Inf. Comput.},
+  arxiv        = {1309.5439},
+  abstract     = {We extend the quantitative synthesis framework by going beyond the worst-case. On the one hand, classical analysis of two-player games involves an adversary (modeling the environment of the system) which is purely antagonistic and asks for strict guarantees. On the other hand, stochastic models like Markov decision processes represent situations where the system is faced to a purely randomized environment: the aim is then to optimize the expected payoff, with no guarantee on individual outcomes. We introduce the beyond worst-case synthesis problem, which is to construct strategies that guarantee some quantitative requirement in the worst-case while providing an higher expected value against a particular stochastic model of the environment given as input. This problem is relevant to produce system controllers that provide nice expected performance in the everyday situation while ensuring a strict (but relaxed) performance threshold even in the event of very bad (while unlikely) circumstances. We study the beyond worst-case synthesis problem for two important quantitative settings: the mean-payoff and the shortest path. In both cases, we show how to decide the existence of finite-memory strategies satisfying the problem and how to synthesize one if one exists. We establish algorithms and we study complexity bounds and memory requirements.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/fossacs/BouyerHMR017,
+  author       = {Patricia Bouyer and
+                  Piotr Hofman and
+                  Nicolas Markey and
+                  Mickael Randour and
+                  Martin Zimmermann},
+  editor       = {Javier Esparza and
+                  Andrzej S. Murawski},
+  title        = {Bounding Average-Energy Games},
+  booktitle    = {Foundations of Software Science and Computation Structures - 20th
+                  International Conference, {FoSSaCS} 2017, Held as Part of the European
+                  Joint Conferences on Theory and Practice of Software, {ETAPS} 2017,
+                  Uppsala, Sweden, April 22-29, 2017, Proceedings},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {10203},
+  pages        = {179--195},
+  year         = {2017},
+  url          = {https://doi.org/10.1007/978-3-662-54458-7\_11},
+  doi          = {10.1007/978-3-662-54458-7\_11},
+  timestamp    = {Tue, 14 May 2019 10:00:55 +0200},
+  biburl       = {https://dblp.org/rec/conf/fossacs/BouyerHMR017.bib},
+  bibtex_show  = {true},
+  abbr         = {FoSSaCS},
+  arxiv        = {1610.07858},
+  abstract     = {We consider average-energy games, where the goal is to minimize the long-run average of the accumulated energy. While several results have been obtained on these games recently, decidability of average-energy games with a lower-bound constraint on the energy level (but no upper bound) remained open; in particular, so far there was no known upper bound on the memory that is required for winning strategies. By reducing average-energy games with lower-bounded energy to infinite-state mean-payoff games and analyzing the density of low-energy configurations, we show an almost tight doubly-exponential upper bound on the necessary memory, and that the winner of average-energy games with lower-bounded energy can be determined in doubly-exponential time. We also prove EXPSPACE-hardness of this problem. Finally, we consider multi-dimensional extensions of all types of average-energy games: without bounds, with only a lower bound, and with both a lower and an upper bound on the energy. We show that the fully-bounded version is the only case to remain decidable in multiple dimensions.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/icalp/BerthonRR17,
+  author       = {Rapha{\"{e}}l Berthon and
+                  Mickael Randour and
+                  Jean{-}Fran{\c{c}}ois Raskin},
+  editor       = {Ioannis Chatzigiannakis and
+                  Piotr Indyk and
+                  Fabian Kuhn and
+                  Anca Muscholl},
+  title        = {Threshold Constraints with Guarantees for Parity Objectives in Markov
+                  Decision Processes},
+  booktitle    = {44th International Colloquium on Automata, Languages, and Programming,
+                  {ICALP} 2017, July 10-14, 2017, Warsaw, Poland},
+  series       = {LIPIcs},
+  volume       = {80},
+  pages        = {121:1--121:15},
+  publisher    = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},
+  year         = {2017},
+  url          = {https://doi.org/10.4230/LIPIcs.ICALP.2017.121},
+  doi          = {10.4230/LIPICS.ICALP.2017.121},
+  timestamp    = {Mon, 26 Jun 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/conf/icalp/BerthonRR17.bib},
+  bibtex_show  = {true},
+  abbr         = {ICALP},
+  arxiv        = {1702.05472},
+  abstract     = {The beyond worst-case synthesis problem was introduced recently by Bruyère et al. [BFRR14]: it aims at building system controllers that provide strict worst-case performance guarantees against an antagonistic environment while ensuring higher expected performance against a stochastic model of the environment. Our work extends the framework of [BFRR14] and follow-up papers, which focused on quantitative objectives, by addressing the case of ω-regular conditions encoded as parity objectives, a natural way to represent functional requirements of systems. We build strategies that satisfy a main parity objective on all plays, while ensuring a secondary one with sufficient probability. This setting raises new challenges in comparison to quantitative objectives, as one cannot easily mix different strategies without endangering the functional properties of the system. We establish that, for all variants of this problem, deciding the existence of a strategy lies in NP∩coNP, the same complexity class as classical parity games. Hence, our framework provides additional modeling power while staying in the same complexity class. [BFRR14] Véronique Bruyère, Emmanuel Filiot, Mickael Randour, and Jean-François Raskin. Meet your expectations with guarantees: Beyond worst-case synthesis in quantitative games. In Ernst W. Mayr and Natacha Portier, editors, 31st International Symposium on Theoretical Aspects of Computer Science, STACS 2014, March 5-8, 2014, Lyon, France, volume 25 of LIPIcs, pages 199-213. Schloss Dagstuhl - Leibniz - Zentrum fuer Informatik, 2014.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+article{DBLP:journals/corr/BerthonRR17,
+  author       = {Rapha{\"{e}}l Berthon and
+                  Mickael Randour and
+                  Jean{-}Fran{\c{c}}ois Raskin},
+  title        = {Threshold Constraints with Guarantees for Parity Objectives in Markov
+                  Decision Processes},
+  journal      = {CoRR},
+  volume       = {abs/1702.05472},
+  year         = {2017},
+  url          = {http://arxiv.org/abs/1702.05472},
+  eprinttype    = {arXiv},
+  eprint       = {1702.05472},
+  timestamp    = {Mon, 13 Aug 2018 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/BerthonRR17.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/icalp/BouyerMRSS16,
+  author       = {Patricia Bouyer and
+                  Nicolas Markey and
+                  Mickael Randour and
+                  Arnaud Sangnier and
+                  Daniel Stan},
+  editor       = {Ioannis Chatzigiannakis and
+                  Michael Mitzenmacher and
+                  Yuval Rabani and
+                  Davide Sangiorgi},
+  title        = {Reachability in Networks of Register Protocols under Stochastic Schedulers},
+  booktitle    = {43rd International Colloquium on Automata, Languages, and Programming,
+                  {ICALP} 2016, July 11-15, 2016, Rome, Italy},
+  series       = {LIPIcs},
+  volume       = {55},
+  pages        = {106:1--106:14},
+  publisher    = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},
+  year         = {2016},
+  url          = {https://doi.org/10.4230/LIPIcs.ICALP.2016.106},
+  doi          = {10.4230/LIPICS.ICALP.2016.106},
+  timestamp    = {Thu, 14 Oct 2021 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/conf/icalp/BouyerMRSS16.bib},
+  bibtex_show  = {true},
+  abbr         = {ICALP},
+  arxiv        = {1602.05928},
+  abstract     = {We study the almost-sure reachability problem in a distributed system obtained as the asynchronous composition of N copies (called processes) of the same automaton (called protocol), that can communicate via a shared register with finite domain. The automaton has two types of transitions: write-transitions update the value of the register, while read-transitions move to a new state depending on the content of the register. Non-determinism is resolved by a stochastic scheduler. Given a protocol, we focus on almost-sure reachability of a target state by one of the processes. The answer to this problem naturally depends on the number N of processes. However, we prove that our setting has a cut-off property: the answer to the almost-sure reachability problem is constant when N is large enough; we then develop an EXPSPACE algorithm deciding whether this constant answer is positive or negative.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/lata/BrenguierCHPRRS16,
+  author       = {Romain Brenguier and
+                  Lorenzo Clemente and
+                  Paul Hunter and
+                  Guillermo A. P{\'{e}}rez and
+                  Mickael Randour and
+                  Jean{-}Fran{\c{c}}ois Raskin and
+                  Ocan Sankur and
+                  Mathieu Sassolas},
+  editor       = {Adrian{-}Horia Dediu and
+                  Jan Janousek and
+                  Carlos Mart{\'{\i}}n{-}Vide and
+                  Bianca Truthe},
+  title        = {Non-Zero Sum Games for Reactive Synthesis},
+  booktitle    = {Language and Automata Theory and Applications - 10th International
+                  Conference, {LATA} 2016, Prague, Czech Republic, March 14-18, 2016,
+                  Proceedings},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {9618},
+  pages        = {3--23},
+  publisher    = {Springer},
+  year         = {2016},
+  url          = {https://doi.org/10.1007/978-3-319-30000-9\_1},
+  doi          = {10.1007/978-3-319-30000-9\_1},
+  timestamp    = {Thu, 08 Apr 2021 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/conf/lata/BrenguierCHPRRS16.bib},
+  bibtex_show  = {true},
+  award        = {Keynote lecture at LATA'16.},
+  award_name   = {Invited paper},
+  abbr         = {LATA},
+  arxiv        = {1512.05568},
+  abstract     = {In this invited contribution, we summarize new solution concepts useful for the synthesis of reactive systems that we have introduced in several recent publications. These solution concepts are developed in the context of non-zero sum games played on graphs. They are part of the contributions obtained in the inVEST project funded by the European Research Council.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:journals/corr/BruyereHR16,
+  author       = {V{\'{e}}ronique Bruy{\`{e}}re and
+                  Quentin Hautem and
+                  Mickael Randour},
+  editor       = {Domenico Cantone and
+                  Giorgio Delzanno},
+  title        = {Window parity games: an alternative approach toward parity games with
+                  time bounds},
+  booktitle    = {Proceedings of the Seventh International Symposium on Games, Automata,
+                  Logics and Formal Verification, GandALF 2016, Catania, Italy, 14-16
+                  September 2016},
+  series       = {{EPTCS}},
+  volume       = {226},
+  pages        = {135--148},
+  year         = {2016},
+  url          = {https://doi.org/10.4204/EPTCS.226.10},
+  doi          = {10.4204/EPTCS.226.10},
+  timestamp    = {Wed, 12 Sep 2018 01:05:14 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/BruyereHR16.bib},
+  bibtex_show  = {true},
+  abbr         = {GandALF},
+  arxiv        = {1609.05952},
+  abstract     = {Classical objectives in two-player zero-sum games played on graphs often deal with limit behaviors of infinite plays: e.g., mean-payoff and total-payoff in the quantitative setting, or parity in the qualitative one (a canonical way to encode omega-regular properties). Those objectives offer powerful abstraction mechanisms and often yield nice properties such as memoryless determinacy. However, their very nature provides no guarantee on time bounds within which something good can be witnessed. In this work, we consider two approaches toward inclusion of time bounds in parity games. The first one, parity-response games, is based on the notion of finitary parity games [CHH09] and parity games with costs [FZ14,WZ16]. The second one, window parity games, is inspired by window mean-payoff games [CDRR15]. We compare the two approaches and show that while they prove to be equivalent in some contexts, window parity games offer a more tractable alternative when the time bound is given as a parameter (P-c. vs. PSPACE-C.). In particular, it provides a conservative approximation of parity games computable in polynomial time. Furthermore, we extend both approaches to the multi-dimension setting. We give the full picture for both types of games with regard to complexity and memory bounds. [CHH09] K. Chatterjee, T.A. Henzinger, F. Horn (2009): Finitary winning in omega-regular games. ACM Trans. Comput. Log. 11(1). [FZ14] N. Fijalkow, M. Zimmermann (2014): Parity and Streett Games with Costs. LMCS 10(2). [WZ16] A. Weinert, M. Zimmermann (2016): Easy to Win, Hard to Master: Optimal Strategies in Parity Games with Costs. Proc. of CSL, LIPIcs 62, pp. 31:1-31:17, Schloss Dagstuhl - LZI. [CDRR15] K. Chatterjee, L. Doyen, M. Randour, J.-F. Raskin (2015): Looking at mean-payoff and total-payoff through windows. Information and Computation 242, pp. 25-52.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+article{DBLP:journals/corr/BouyerMRSS16,
+  author       = {Patricia Bouyer and
+                  Nicolas Markey and
+                  Mickael Randour and
+                  Arnaud Sangnier and
+                  Daniel Stan},
+  title        = {Reachability in Networks of Register Protocols under Stochastic Schedulers},
+  journal      = {CoRR},
+  volume       = {abs/1602.05928},
+  year         = {2016},
+  url          = {http://arxiv.org/abs/1602.05928},
+  eprinttype    = {arXiv},
+  eprint       = {1602.05928},
+  timestamp    = {Mon, 13 Aug 2018 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/BouyerMRSS16.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+article{DBLP:journals/corr/Randour16,
+  author       = {Mickael Randour},
+  title        = {Reconciling Rationality and Stochasticity: Rich Behavioral Models
+                  in Two-Player Games},
+  journal      = {CoRR},
+  volume       = {abs/1603.05072},
+  year         = {2016},
+  url          = {http://arxiv.org/abs/1603.05072},
+  eprinttype    = {arXiv},
+  eprint       = {1603.05072},
+  timestamp    = {Mon, 13 Aug 2018 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/Randour16.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+article{DBLP:journals/corr/BruyereHR16a,
+  author       = {V{\'{e}}ronique Bruy{\`{e}}re and
+                  Quentin Hautem and
+                  Mickael Randour},
+  title        = {Window Parity Games: An Alternative Approach Toward Parity Games with
+                  Time Bounds (Full Version)},
+  journal      = {CoRR},
+  volume       = {abs/1609.05952},
+  year         = {2016},
+  url          = {http://arxiv.org/abs/1609.05952},
+  eprinttype    = {arXiv},
+  eprint       = {1609.05952},
+  timestamp    = {Mon, 13 Aug 2018 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/BruyereHR16a.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+article{DBLP:journals/corr/BouyerHMRZ16,
+  author       = {Patricia Bouyer and
+                  Piotr Hofman and
+                  Nicolas Markey and
+                  Mickael Randour and
+                  Martin Zimmermann},
+  title        = {Bounding Average-energy Games},
+  journal      = {CoRR},
+  volume       = {abs/1610.07858},
+  year         = {2016},
+  url          = {http://arxiv.org/abs/1610.07858},
+  eprinttype    = {arXiv},
+  eprint       = {1610.07858},
+  timestamp    = {Mon, 13 Aug 2018 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/BouyerHMRZ16.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/iandc/Chatterjee0RR15,
+  author       = {Krishnendu Chatterjee and
+                  Laurent Doyen and
+                  Mickael Randour and
+                  Jean{-}Fran{\c{c}}ois Raskin},
+  title        = {Looking at mean-payoff and total-payoff through windows},
+  journal      = {Information and Computation},
+  volume       = {242},
+  pages        = {25--52},
+  year         = {2015},
+  url          = {https://doi.org/10.1016/j.ic.2015.03.010},
+  doi          = {10.1016/J.IC.2015.03.010},
+  timestamp    = {Fri, 12 Feb 2021 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/journals/iandc/Chatterjee0RR15.bib},
+  bibtex_show  = {true},
+  abbr         = {Inf. Comput.},
+  arxiv        = {1302.4248},
+  abstract     = {We consider two-player games played on weighted directed graphs with mean-payoff and total-payoff objectives, two classical quantitative objectives. While for single-dimensional games the complexity and memory bounds for both objectives coincide, we show that in contrast to multi-dimensional mean-payoff games that are known to be coNP-complete, multi-dimensional total-payoff games are undecidable. We introduce conservative approximations of these objectives, where the payoff is considered over a local finite window sliding along a play, instead of the whole play. For single dimension, we show that (i) if the window size is polynomial, deciding the winner takes polynomial time, and (ii) the existence of a bounded window can be decided in NP ∩ coNP, and is at least as hard as solving mean-payoff games. For multiple dimensions, we show that (i) the problem with fixed window size is EXPTIME-complete, and (ii) there is no primitive-recursive algorithm to decide the existence of a bounded window.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/cav/RandourRS15,
+  author       = {Mickael Randour and
+                  Jean{-}Fran{\c{c}}ois Raskin and
+                  Ocan Sankur},
+  editor       = {Daniel Kroening and
+                  Corina S. Pasareanu},
+  title        = {Percentile Queries in Multi-dimensional Markov Decision Processes},
+  booktitle    = {Computer Aided Verification - 27th International Conference, {CAV}
+                  2015, San Francisco, CA, USA, July 18-24, 2015, Proceedings, Part
+                  {I}},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {9206},
+  pages        = {123--139},
+  publisher    = {Springer},
+  year         = {2015},
+  url          = {https://doi.org/10.1007/978-3-319-21690-4\_8},
+  doi          = {10.1007/978-3-319-21690-4\_8},
+  timestamp    = {Fri, 27 Mar 2020 08:45:57 +0100},
+  biburl       = {https://dblp.org/rec/conf/cav/RandourRS15.bib},
+  bibtex_show  = {true},
+  abbr         = {CAV},
+  arxiv        = {1410.4801},
+  abstract     = {Markov decision processes (MDPs) with multi-dimensional weights are useful to analyze systems with multiple objectives that may be conflicting and require the analysis of trade-offs. We study the complexity of percentile queries in such MDPs and give algorithms to synthesize strategies that enforce such constraints. Given a multi-dimensional weighted MDP and a quantitative payoff function f, thresholds v_i (one per dimension), and probability thresholds α_i, we show how to compute a single strategy to enforce that for all dimensions i, the probability of outcomes ρ satisfying f_i(ρ)≥v_i is at least α_i. We consider classical quantitative payoffs from the literature (sup, inf, lim sup, lim inf, mean-payoff, truncated sum, discounted sum). Our work extends to the quantitative case the multi-objective model checking problem studied by Etessami et al. in unweighted MDPs.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/vmcai/RandourRS15,
+  author       = {Mickael Randour and
+                  Jean{-}Fran{\c{c}}ois Raskin and
+                  Ocan Sankur},
+  editor       = {Deepak D'Souza and
+                  Akash Lal and
+                  Kim Guldstrand Larsen},
+  title        = {Variations on the Stochastic Shortest Path Problem},
+  booktitle    = {Verification, Model Checking, and Abstract Interpretation - 16th International
+                  Conference, {VMCAI} 2015, Mumbai, India, January 12-14, 2015. Proceedings},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {8931},
+  pages        = {1--18},
+  publisher    = {Springer},
+  year         = {2015},
+  url          = {https://doi.org/10.1007/978-3-662-46081-8\_1},
+  doi          = {10.1007/978-3-662-46081-8\_1},
+  timestamp    = {Tue, 07 May 2024 20:11:13 +0200},
+  biburl       = {https://dblp.org/rec/conf/vmcai/RandourRS15.bib},
+  award        = {Keynote lecture at VMCAI'15.},
+  award_name   = {Invited paper},
+  bibtex_show  = {true},
+  abbr         = {VMCAI},
+  arxiv        = {1411.0835},
+  abstract     = {In this invited contribution, we revisit the stochastic shortest path problem, and show how recent results allow one to improve over the classical solutions: we present algorithms to synthesize strategies with multiple guarantees on the distribution of the length of paths reaching a given target, rather than simply minimizing its expected value. The concepts and algorithms that we propose here are applications of more general results that have been obtained recently for Markov decision processes and that are described in a series of recent papers.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:journals/corr/BouyerMRLL15,
+  author       = {Patricia Bouyer and
+                  Nicolas Markey and
+                  Mickael Randour and
+                  Kim Guldstrand Larsen and
+                  Simon Laursen},
+  editor       = {Javier Esparza and
+                  Enrico Tronci},
+  title        = {Average-energy games},
+  booktitle    = {Proceedings Sixth International Symposium on Games, Automata, Logics
+                  and Formal Verification, GandALF 2015, Genoa, Italy, 21-22nd September
+                  2015},
+  series       = {{EPTCS}},
+  volume       = {193},
+  pages        = {1--15},
+  year         = {2015},
+  url          = {https://doi.org/10.4204/EPTCS.193.1},
+  doi          = {10.4204/EPTCS.193.1},
+  timestamp    = {Tue, 07 May 2024 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/BouyerMRLL15.bib},
+  bibtex_show  = {true},
+  abbr         = {GandALF},
+  arxiv        = {1512.08106},
+  abstract     = {Two-player quantitative zero-sum games provide a natural framework to synthesize controllers with performance guarantees for reactive systems within an uncontrollable environment. Classical settings include mean-payoff games, where the objective is to optimize the long-run average gain per action, and energy games, where the system has to avoid running out of energy. We study average-energy games, where the goal is to optimize the long-run average of the accumulated energy. We show that this objective arises naturally in several applications, and that it yields interesting connections with previous concepts in the literature. We prove that deciding the winner in such games is in NP ∩ coNP and at least as hard as solving mean-payoff games, and we establish that memoryless strategies suffice to win. We also consider the case where the system has to minimize the average-energy while maintaining the accumulated energy within predefined bounds at all times: this corresponds to operating with a finite-capacity storage for energy. We give results for one-player and two-player games, and establish complexity bounds and memory requirements.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+article{DBLP:journals/corr/BrenguierCHPRRS15,
+  author       = {Romain Brenguier and
+                  Lorenzo Clemente and
+                  Paul Hunter and
+                  Guillermo A. P{\'{e}}rez and
+                  Mickael Randour and
+                  Jean{-}Fran{\c{c}}ois Raskin and
+                  Ocan Sankur and
+                  Mathieu Sassolas},
+  title        = {Non-Zero Sum Games for Reactive Synthesis},
+  journal      = {CoRR},
+  volume       = {abs/1512.05568},
+  year         = {2015},
+  url          = {http://arxiv.org/abs/1512.05568},
+  eprinttype    = {arXiv},
+  eprint       = {1512.05568},
+  timestamp    = {Thu, 08 Apr 2021 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/BrenguierCHPRRS15.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+article{DBLP:journals/corr/BouyerMRLL15a,
+  author       = {Patricia Bouyer and
+                  Nicolas Markey and
+                  Mickael Randour and
+                  Kim G. Larsen and
+                  Simon Laursen},
+  title        = {Average-energy games (full version)},
+  journal      = {CoRR},
+  volume       = {abs/1512.08106},
+  year         = {2015},
+  url          = {http://arxiv.org/abs/1512.08106},
+  eprinttype    = {arXiv},
+  eprint       = {1512.08106},
+  timestamp    = {Mon, 13 Aug 2018 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/BouyerMRLL15a.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/acta/ChatterjeeRR14,
+  author       = {Krishnendu Chatterjee and
+                  Mickael Randour and
+                  Jean{-}Fran{\c{c}}ois Raskin},
+  title        = {Strategy synthesis for multi-dimensional quantitative objectives},
+  journal      = {Acta Informatica},
+  volume       = {51},
+  number       = {3-4},
+  pages        = {129--163},
+  year         = {2014},
+  url          = {https://doi.org/10.1007/s00236-013-0182-6},
+  doi          = {10.1007/S00236-013-0182-6},
+  timestamp    = {Sun, 21 Jun 2020 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/acta/ChatterjeeRR14.bib},
+  bibtex_show  = {true},
+  abbr         = {Acta Informatica},
+  arxiv        = {1201.5073},
+  abstract     = {Multi-dimensional mean-payoff and energy games provide the mathematical foundation for the quantitative study of reactive systems, and play a central role in the emerging quantitative theory of verification and synthesis. In this work, we study the strategy synthesis problem for games with such multi-dimensional objectives along with a parity condition, a canonical way to express ω-regular conditions. While in general, the winning strategies in such games may require infinite memory, for synthesis the most relevant problem is the construction of a finite-memory winning strategy (if one exists). Our main contributions are as follows. First, we show a tight exponential bound (matching upper and lower bounds) on the memory required for finite-memory winning strategies in both multi-dimensional mean-payoff and energy games along with parity objectives. This significantly improves the triple exponential upper bound for multi energy games (without parity) that could be derived from results in literature for games on VASS (vector addition systems with states). Second, we present an optimal symbolic and incremental algorithm to compute a finite-memory winning strategy (if one exists) in such games. Finally, we give a complete characterization of when finite memory of strategies can be traded off for randomness. In particular, we show that for one-dimension mean-payoff parity games, randomized memoryless strategies are as powerful as their pure finite-memory counterparts.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/stacs/BruyereFRR14,
+  author       = {V{\'{e}}ronique Bruy{\`{e}}re and
+                  Emmanuel Filiot and
+                  Mickael Randour and
+                  Jean{-}Fran{\c{c}}ois Raskin},
+  editor       = {Ernst W. Mayr and
+                  Natacha Portier},
+  title        = {Meet Your Expectations With Guarantees: Beyond Worst-Case Synthesis
+                  in Quantitative Games},
+  booktitle    = {31st International Symposium on Theoretical Aspects of Computer Science
+                  {(STACS} 2014), {STACS} 2014, March 5-8, 2014, Lyon, France},
+  series       = {LIPIcs},
+  volume       = {25},
+  pages        = {199--213},
+  publisher    = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},
+  year         = {2014},
+  url          = {https://doi.org/10.4230/LIPIcs.STACS.2014.199},
+  doi          = {10.4230/LIPICS.STACS.2014.199},
+  timestamp    = {Sat, 05 Sep 2020 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/conf/stacs/BruyereFRR14.bib},
+  bibtex_show  = {true},
+  abbr         = {STACS},
+  arxiv        = {1309.5439},
+  abstract     = {We extend the quantitative synthesis framework by going beyond the worst-case. On the one hand, classical analysis of two-player games involves an adversary (modeling the environment of the system) which is purely antagonistic and asks for strict guarantees. On the other hand, stochastic models like Markov decision processes represent situations where the system is faced to a purely randomized environment: the aim is then to optimize the expected payoff, with no guarantee on individual outcomes. We introduce the beyond worst-case synthesis problem, which is to construct strategies that guarantee some quantitative requirement in the worst-case while providing an higher expected value against a particular stochastic model of the environment given as input. This problem is relevant to produce system controllers that provide nice expected performance in the everyday situation while ensuring a strict (but relaxed) performance threshold even in the event of very bad (while unlikely) circumstances. We study the beyond worst-case synthesis problem for two important quantitative settings: the mean-payoff and the shortest path. In both cases, we show how to decide the existence of finite-memory strategies satisfying the problem and how to synthesize one if one exists. We establish algorithms and we study complexity bounds and memory requirements.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:journals/corr/BruyereFRR14,
+  author       = {V{\'{e}}ronique Bruy{\`{e}}re and
+                  Emmanuel Filiot and
+                  Mickael Randour and
+                  Jean{-}Fran{\c{c}}ois Raskin},
+  editor       = {Fabio Mogavero and
+                  Aniello Murano and
+                  Moshe Y. Vardi},
+  title        = {Expectations or Guarantees? {I} Want It All! {A} crossroad between
+                  games and MDPs},
+  booktitle    = {Proceedings 2nd International Workshop on Strategic Reasoning, {SR}
+                  2014, Grenoble, France, April 5-6, 2014},
+  series       = {{EPTCS}},
+  volume       = {146},
+  pages        = {1--8},
+  year         = {2014},
+  url          = {https://doi.org/10.4204/EPTCS.146.1},
+  doi          = {10.4204/EPTCS.146.1},
+  timestamp    = {Sat, 30 Sep 2023 10:08:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/BruyereFRR14.bib},
+  bibtex_show  = {true},
+  abbr         = {SR},
+  arxiv        = {1404.0834},
+  abstract     = {When reasoning about the strategic capabilities of an agent, it is important to consider the nature of its adversaries. In the particular context of controller synthesis for quantitative specifications, the usual problem is to devise a strategy for a reactive system which yields some desired performance, taking into account the possible impact of the environment of the system. There are at least two ways to look at this environment. In the classical analysis of two-player quantitative games, the environment is purely antagonistic and the problem is to provide strict performance guarantees. In Markov decision processes, the environment is seen as purely stochastic: the aim is then to optimize the expected payoff, with no guarantee on individual outcomes. In this expository work, we report on recent results introducing the beyond worst-case synthesis problem, which is to construct strategies that guarantee some quantitative requirement in the worst-case while providing an higher expected value against a particular stochastic model of the environment given as input. This problem is relevant to produce system controllers that provide nice expected performance in the everyday situation while ensuring a strict (but relaxed) performance threshold even in the event of very bad (while unlikely) circumstances. It has been studied for both the mean-payoff and the shortest path quantitative measures.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+article{DBLP:journals/corr/RandourRS14,
+  author       = {Mickael Randour and
+                  Jean{-}Fran{\c{c}}ois Raskin and
+                  Ocan Sankur},
+  title        = {Percentile Queries in Multi-Dimensional Markov Decision Processes},
+  journal      = {CoRR},
+  volume       = {abs/1410.4801},
+  year         = {2014},
+  url          = {http://arxiv.org/abs/1410.4801},
+  eprinttype    = {arXiv},
+  eprint       = {1410.4801},
+  timestamp    = {Mon, 13 Aug 2018 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/RandourRS14.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+article{DBLP:journals/corr/RandourRS14a,
+  author       = {Mickael Randour and
+                  Jean{-}Fran{\c{c}}ois Raskin and
+                  Ocan Sankur},
+  title        = {Variations on the Stochastic Shortest Path Problem},
+  journal      = {CoRR},
+  volume       = {abs/1411.0835},
+  year         = {2014},
+  url          = {http://arxiv.org/abs/1411.0835},
+  eprinttype    = {arXiv},
+  eprint       = {1411.0835},
+  timestamp    = {Mon, 13 Aug 2018 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/RandourRS14a.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/atva/Chatterjee0RR13,
+  author       = {Krishnendu Chatterjee and
+                  Laurent Doyen and
+                  Mickael Randour and
+                  Jean{-}Fran{\c{c}}ois Raskin},
+  editor       = {Dang Van Hung and
+                  Mizuhito Ogawa},
+  title        = {Looking at Mean-Payoff and Total-Payoff through Windows},
+  booktitle    = {Automated Technology for Verification and Analysis - 11th International
+                  Symposium, {ATVA} 2013, Hanoi, Vietnam, October 15-18, 2013. Proceedings},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {8172},
+  pages        = {118--132},
+  publisher    = {Springer},
+  year         = {2013},
+  url          = {https://doi.org/10.1007/978-3-319-02444-8\_10},
+  doi          = {10.1007/978-3-319-02444-8\_10},
+  timestamp    = {Tue, 14 May 2019 10:00:49 +0200},
+  biburl       = {https://dblp.org/rec/conf/atva/Chatterjee0RR13.bib},
+  bibtex_show  = {true},
+  abbr         = {ATVA},
+  arxiv        = {1302.4248},
+  abstract     = {We consider two-player games played on weighted directed graphs with mean-payoff and total-payoff objectives, two classical quantitative objectives. While for single-dimensional games the complexity and memory bounds for both objectives coincide, we show that in contrast to multi-dimensional mean-payoff games that are known to be coNP-complete, multi-dimensional total-payoff games are undecidable. We introduce conservative approximations of these objectives, where the payoff is considered over a local finite window sliding along a play, instead of the whole play. For single dimension, we show that (i) if the window size is polynomial, deciding the winner takes polynomial time, and (ii) the existence of a bounded window can be decided in NP ∩ coNP, and is at least as hard as solving mean-payoff games. For multiple dimensions, we show that (i) the problem with fixed window size is EXPTIME-complete, and (ii) there is no primitive-recursive algorithm to decide the existence of a bounded window.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+article{DBLP:journals/corr/abs-1302-4248,
+  author       = {Krishnendu Chatterjee and
+                  Laurent Doyen and
+                  Mickael Randour and
+                  Jean{-}Fran{\c{c}}ois Raskin},
+  title        = {Looking at Mean-Payoff and Total-Payoff through Windows},
+  journal      = {CoRR},
+  volume       = {abs/1302.4248},
+  year         = {2013},
+  url          = {http://arxiv.org/abs/1302.4248},
+  eprinttype    = {arXiv},
+  eprint       = {1302.4248},
+  timestamp    = {Mon, 13 Aug 2018 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-1302-4248.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+article{DBLP:journals/corr/BruyereFRR13,
+  author       = {V{\'{e}}ronique Bruy{\`{e}}re and
+                  Emmanuel Filiot and
+                  Mickael Randour and
+                  Jean{-}Fran{\c{c}}ois Raskin},
+  title        = {Meet Your Expectations With Guarantees: Beyond Worst-Case Synthesis
+                  in Quantitative Games},
+  journal      = {CoRR},
+  volume       = {abs/1309.5439},
+  year         = {2013},
+  url          = {http://arxiv.org/abs/1309.5439},
+  eprinttype    = {arXiv},
+  eprint       = {1309.5439},
+  timestamp    = {Mon, 13 Aug 2018 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/BruyereFRR13.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/concur/ChatterjeeRR12,
+  author       = {Krishnendu Chatterjee and
+                  Mickael Randour and
+                  Jean{-}Fran{\c{c}}ois Raskin},
+  editor       = {Maciej Koutny and
+                  Irek Ulidowski},
+  title        = {Strategy Synthesis for Multi-Dimensional Quantitative Objectives},
+  booktitle    = {{CONCUR} 2012 - Concurrency Theory - 23rd International Conference,
+                  {CONCUR} 2012, Newcastle upon Tyne, UK, September 4-7, 2012. Proceedings},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {7454},
+  pages        = {115--131},
+  publisher    = {Springer},
+  year         = {2012},
+  url          = {https://doi.org/10.1007/978-3-642-32940-1\_10},
+  doi          = {10.1007/978-3-642-32940-1\_10},
+  timestamp    = {Tue, 14 May 2019 10:00:43 +0200},
+  biburl       = {https://dblp.org/rec/conf/concur/ChatterjeeRR12.bib},
+  bibtex_show  = {true},
+  abbr         = {CONCUR},
+  arxiv        = {1201.5073},
+  abstract     = {Multi-dimensional mean-payoff and energy games provide the mathematical foundation for the quantitative study of reactive systems, and play a central role in the emerging quantitative theory of verification and synthesis. In this work, we study the strategy synthesis problem for games with such multi-dimensional objectives along with a parity condition, a canonical way to express ω-regular conditions. While in general, the winning strategies in such games may require infinite memory, for synthesis the most relevant problem is the construction of a finite-memory winning strategy (if one exists). Our main contributions are as follows. First, we show a tight exponential bound (matching upper and lower bounds) on the memory required for finite-memory winning strategies in both multi-dimensional mean-payoff and energy games along with parity objectives. This significantly improves the triple exponential upper bound for multi energy games (without parity) that could be derived from results in literature for games on VASS (vector addition systems with states). Second, we present an optimal symbolic and incremental algorithm to compute a finite-memory winning strategy (if one exists) in such games. Finally, we give a complete characterization of when finite memory of strategies can be traded off for randomness. In particular, we show that for one-dimension mean-payoff parity games, randomized memoryless strategies are as powerful as their pure finite-memory counterparts.},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+article{DBLP:journals/corr/abs-1201-5073,
+  author       = {Krishnendu Chatterjee and
+                  Mickael Randour and
+                  Jean{-}Fran{\c{c}}ois Raskin},
+  title        = {Strategy Synthesis for Multi-dimensional Quantitative Objectives},
+  journal      = {CoRR},
+  volume       = {abs/1201.5073},
+  year         = {2012},
+  url          = {http://arxiv.org/abs/1201.5073},
+  eprinttype    = {arXiv},
+  eprint       = {1201.5073},
+  timestamp    = {Mon, 13 Aug 2018 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-1201-5073.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+article{DBLP:journals/corr/abs-1204-3283,
+  author       = {Mickael Randour},
+  title        = {Automated synthesis of reliable and efficient systems through game
+                  theory: a case study},
+  journal      = {CoRR},
+  volume       = {abs/1204.3283},
+  year         = {2012},
+  url          = {http://arxiv.org/abs/1204.3283},
+  eprinttype    = {arXiv},
+  eprint       = {1204.3283},
+  timestamp    = {Mon, 13 Aug 2018 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-1204-3283.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{randourECCS,
+year={2013},
+isbn={978-3-319-00394-8},
+booktitle={Proceedings of the European Conference on Complex Systems 2012, {ECCS} 2012, Brussels, Belgium, September 2-7, 2012},
+series={Springer Proceedings in Complexity},
+title={Automated {S}ynthesis of {R}eliable and {E}fficient {S}ystems {T}hrough {G}ame {T}heory: {A} {C}ase {S}tudy},
+publisher={Springer},
+author={Randour, Mickael},
+  bibtex_show  = {true},
+  abbr         = {ECCS},
+  arxiv        = {1204.3283},
+  abstract     = {Reactive computer systems bear inherent complexity due to continuous interactions with their environment. While this environment often proves to be uncontrollable, we still want to ensure that critical computer systems will not fail, no matter what they face. Examples are legion: railway traffic, power plants, plane navigation systems, etc. Formal verification of a system may ensure that it satisfies a given specification, but only applies to an already existing model of a system. In this work, we address the problem of synthesis: starting from a specification of the desired behavior, we show how to build a suitable system controller that will enforce this specification. In particular, we discuss recent developments of that approach for systems that must ensure Boolean behaviors (e.g., reachability, liveness) along with quantitative requirements over their execution (e.g., never drop out of fuel, ensure a suitable mean response time). We notably illustrate a powerful, practically useable algorithm for the automated synthesis of provably safe reactive systems.},
+pages={731-738}
+}
+
+@phdthesis{randourThesis,
+  author       = {Mickael Randour},
+  title        = {Synthesis in Multi-Criteria Quantitative Games},
+  school       = {UMONS -- Université de Mons},
+  year         = {2014},
+  month        = {April},
+  type         = {PhD Thesis},
+  note         = {UMONS -- Université de Mons. Supervisors: Véronique Bruyère (UMONS) et Jean-François Raskin (ULB).},
+  bibtex_show  = {true},
+  abbr         = {PhD Thesis},
+  award        = {Ackermann Award 2015: Outstanding PhD Dissertation Award for Logic in Computer Science, worldwide selection by the EACSL – European Association for Computer Science Logic.},
+  award_name   = {Ackermann Award},
+  pdf          = {thesis.pdf}
+}
+
+@inproceedings{randourGAMES,
+  author       = {Mickael Randour},
+  title        = {Reconciling Rationality and Stochasticity: Rich Behavioral Models in Two-Player Games},
+  booktitle    = {GAMES 2016, the 5th World Congress of the Game Theory Society},
+  bibtex_show  = {true},
+  abbr         = {GAMES},
+  year         = {2016},
+  arxiv        = {1603.05072},
+  abstract     = {Two traditional paradigms are often used to describe the behavior of agents in multi-agent complex systems. In the first one, agents are considered to be fully rational and systems are seen as multi-player games. In the second one, agents are considered to be fully stochastic processes and the system itself is seen as a large stochastic process. From the standpoint of a particular agent - having to choose a strategy, the choice of the paradigm is crucial: the most adequate strategy depends on the assumptions made on the other agents. In this paper, we focus on two-player games and their application to the automated synthesis of reliable controllers for reactive systems - a field at the crossroads between computer science and mathematics. In this setting, the reactive system to control is a player, and its environment is its opponent, usually assumed to be fully antagonistic or fully stochastic. We illustrate several recent developments aiming to breach this narrow taxonomy by providing formal concepts and mathematical frameworks to reason about richer behavioral models. The interest of such models is not limited to reactive system synthesis but extends to other application fields of game theory. The goal of our contribution is to give a high-level presentation of key concepts and applications, aimed at a broad audience. To achieve this goal, we illustrate those rich behavioral models on a classical challenge of the everyday life: planning a journey in an uncertain environment.}
 }
