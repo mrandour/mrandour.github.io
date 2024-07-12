@@ -1,10 +1,16 @@
 ---
 layout: page
-permalink: /teaching/
 title: Teaching
-description: 
 nav: true
-nav_order: 6
+nav_order: 8
+dropdown: true
+children:
+  - title: Courses
+    permalink: /courses/
+  - title: divider
+  - title: Master students
+    permalink: /masters/
+  - title: divider
+  - title: Interns
+    permalink: /interns/
 ---
-
-
