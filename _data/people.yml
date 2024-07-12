@@ -1,0 +1,155 @@
+- firstname: James Campbell Alexander
+  lastname: Main
+  position: PhD
+  image: JCAMain.jpg
+  url: https://alexandermain.github.io/
+  teaser: >
+    James is supervised by Mickael Randour (UMONS, Belgium). His PhD is funded by the F.R.S.-FNRS. His research interests lie in the game-theoretic approach to the synthesis of controllers for reactive systems and the models used for the representation of these controllers. He is also interested in timed systems.
+  interests:
+    - controller representation
+    - nature of randomness
+    - game theory
+    - memory bounds
+  # former
+  former: 
+  start_year: 2021
+  exit_year: 
+  # social
+  email: james.main@umons.ac.be
+  github_username: # your GitHub user name
+  gitlab_username: # your GitLab user name
+  twitter_username: # your Twitter handle
+  mastodon_username: # your mastodon username
+  mastodon_instance: # your mastodon instance
+  linkedin_username: # your LinkedIn user name
+  scholar_userid: # your Google Scholar ID
+  semanticscholar_id: # your Semantic Scholar ID
+  whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
+  orcid_id: # your ORCID ID
+  medium_username: # your Medium username
+  quora_username: # your Quora username
+  publons_id: # your ID on Publons
+  research_gate_profile: # your profile on ResearchGate
+  blogger_url: # your blogger URL
+  work_url: # work page URL
+  keybase_username: # your keybase user name
+  wikidata_id: # your wikidata id
+  dblp_url: https://dblp.org/pid/292/7485.html # your DBLP profile url
+  stackoverflow_id: # your stackoverflow id
+  kaggle_id: # your kaggle id
+  lastfm_id: # your lastfm id
+  spotify_id: # your spotify id
+  pinterest_id: # your pinterest id
+  unsplash_id: # your unsplash id
+  instagram_id: # your instagram id
+  facebook_id: # your facebook id
+  discord_id: # your discord id (18-digit unique numerical identifier)
+  
+- firstname: Luca
+  lastname: Lani
+  position: PhD
+  image: LLani.jpg
+  url: https://math.umons.ac.be/staff/Lani.Luca/
+  teaser: >
+    Luca is a teaching assistant and a PhD student from the Department of IT and Management of UMONS, Belgium, supervised by Mickael Randour and Xavier Siebert. His research focuses on the formal synthesis problem for stochastic systems evolving on continuous state-spaces. He is interested in techniques based on finite abstraction of the system or techniques mixing formal methods and learning approaches.
+  interests:
+    - continuous-state-space MDPs
+    - reinforcement learning
+    - learning with guarantees
+  # former
+  former: 
+  start_year: 2023
+  exit_year: 
+  # social
+  email: luca.lani@umons.ac.be
+  
+- firstname: Chloé
+  lastname: Capon
+  position: PhD
+  image: CCapon.jpg
+  url: https://chloecapon.github.io/
+  teaser: >
+    Chloé is supervised by Mickael Randour (UMONS, Belgium). Her interests lie in formal methods and in the synthesis of reactive systems. She is also interested in stochastic models.
+  interests:
+    - abstraction mechanisms
+    - counterexamples
+    - controller synthesis
+  # former
+  former: 
+  start_year: 2022
+  exit_year: 
+  # social
+  email: chloé.capon@umons.ac.be
+  dblp_url: https://dblp.org/pid/313/2315.html
+
+- firstname: Pierre
+  lastname: Vandenhove
+  url: https://pierre-vandenhove.github.io/
+  position: PhD
+  image: PVandenhove.jpg
+  teaser: >
+    Pierre was co-supervised by Patricia Bouyer (LMF - ENS Paris-Saclay, France) and Mickael Randour (UMONS, Belgium). His research interests are focused on logic in computer science, and more precisely on automata theory, game theory, formal verification, and controller synthesis for reactive systems. Thesis title: <em>Strategy Complexity of Zero-Sum Games on Graphs</em>.
+  interests:
+    - memory bounds
+    - automata minimization
+    - safe reinforcement learning
+  # former
+  former: true
+  start_year: 2019
+  exit_year: 2023
+  newposition: Research Associate at UMONS, Belgium (starting September 2024).
+  # social
+  email: pierre.vandenhove@umons.ac.be
+  dblp_url: https://dblp.uni-trier.de/pid/232/2156.html
+  scholar_userid: g5QentAAAAAJ
+  
+  
+- firstname: Quentin
+  lastname: Hautem
+  url: https://uclouvain.be/fr/repertoires/quentin.hautem
+  position: PhD
+  teaser: >
+    Quentin was co-supervised by Véronique Bruyère (UMONS, Belgium), Mickael Randour (UMONS, Belgium) and Jean-François Raskin (ULB, Belgium). Thesis title: <em>The Complexity of Combining Objectives in Two-Player Games</em>.
+  interests:
+    - memory bounds
+    - complexity bounds
+    - multi-objective games
+  # former
+  former: true
+  start_year: 2014
+  exit_year: 2018
+  newposition: Teaching Assistant at UCLouvain, Belgium.
+  # social
+  dblp_url: https://dblp.org/pid/172/1339.html
+  
+- firstname: Frantisek
+  lastname: Blahoudek
+  position: Postdoc
+  image: FBlahoudek.jpg
+  teaser: >
+    Fanda (Frantisek) worked with Mickael Randour (UMONS, Belgium) on the F.R.S.-FNRS project ManySynth.
+  interests:
+    - LTL to automata translations
+    - model checking
+  # former
+  former: true
+  start_year: 2018
+  exit_year: 2019
+  # social
+  dblp_url: https://dblp.org/pid/131/6892.html
+  
+  
+- firstname: Adrien
+  lastname: Boiret
+  position: Postdoc
+  teaser: >
+    Adrien worked with Mickael Randour (UMONS, Belgium) on the F.R.S.-FNRS project ManySynth.
+  interests:
+    - transducters
+    - logic
+  # former
+  former: true
+  start_year: 2018
+  exit_year: 2019
+  # social
+  dblp_url: https://dblp.org/pid/117/1724.html

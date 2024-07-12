@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 description: My main projects and grants.
 nav: true
-nav_order: 3
+nav_order: 1
 display_categories: [AI & Formal Methods]
 horizontal: false
 ---
