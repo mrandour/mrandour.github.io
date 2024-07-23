@@ -8,7 +8,8 @@ profile:
   align: right
   image: mick.jpg
   image_circular: false # crops the image to make it circular
-  more_info: I used to have hair like that.
+  more_info: >
+    <p align="right">I used to have hair like that.</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
