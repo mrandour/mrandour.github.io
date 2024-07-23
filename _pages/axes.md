@@ -46,7 +46,7 @@ profiles:
     more_info: >
   - align: left
     image: robot.jpg
-    content: axis_SafeRL.md
+    content: axis_RLxFM.md
     image_circular: false # crops the image to make it circular
     more_info: >
   - align: right

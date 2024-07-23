@@ -1,72 +1,43 @@
-@inproceedings{DBLP:conf/formats/MainRS22,
-  author       = {James C. A. Main and
-                  Mickael Randour and
-                  Jeremy Sproston},
-  editor       = {Sergiy Bogomolov and
-                  David Parker},
-  title        = {Timed Games with Bounded Window Parity Objectives},
-  booktitle    = {Formal Modeling and Analysis of Timed Systems - 20th International
-                  Conference, {FORMATS} 2022, Warsaw, Poland, September 13-15, 2022,
-                  Proceedings},
-  series       = {Lecture Notes in Computer Science},
-  volume       = {13465},
-  pages        = {165--182},
-  publisher    = {Springer},
-  year         = {2022},
-  url          = {https://doi.org/10.1007/978-3-031-15839-1\_10},
-  doi          = {10.1007/978-3-031-15839-1\_10},
-  timestamp    = {Mon, 24 Oct 2022 20:51:03 +0200},
-  biburl       = {https://dblp.org/rec/conf/formats/MainRS22.bib},
-  bibtex_show  = {true},
-  abbr         = {FORMATS},
-  arxiv        = {2205.04197},
-  abstract     = {The window mechanism, introduced by Chatterjee et al. for mean-payoff and total-payoff objectives in two-player turn-based games on graphs, refines long-term objectives with time bounds. This mechanism has proven useful in a variety of settings, and most recently in timed systems. In the timed setting, the so-called fixed timed window parity objectives have been studied. A fixed timed window parity objective is defined with respect to some time bound and requires that, at all times, we witness a time frame, i.e., a window, of size less than the fixed bound in which the smallest priority is even. In this work, we focus on the bounded timed window parity objective. Such an objective is satisfied if there exists some bound for which the fixed objective is satisfied. The satisfaction of bounded objectives is robust to modeling choices such as constants appearing in constraints, unlike fixed objectives, for which the choice of constants may affect the satisfaction for a given bound. We show that verification of bounded timed window objectives in timed automata can be performed in polynomial space, and that timed games with these objectives can be solved in exponential time, even for multi-objective extensions. This matches the complexity classes of the fixed case. We also provide a comparison of the different variants of window parity objectives.},
+@inproceedings{DBLP:conf/aaai/BrazdilC0V20,
+  author       = {Tom{\'{a}}s Br{\'{a}}zdil and
+                  Krishnendu Chatterjee and
+                  Petr Novotn{\'{y}} and
+                  Jiri Vahala},
+  title        = {Reinforcement Learning of Risk-Constrained Policies in Markov Decision
+                  Processes},
+  booktitle    = {The Thirty-Fourth {AAAI} Conference on Artificial Intelligence, {AAAI}
+                  2020, The Thirty-Second Innovative Applications of Artificial Intelligence
+                  Conference, {IAAI} 2020, The Tenth {AAAI} Symposium on Educational
+                  Advances in Artificial Intelligence, {EAAI} 2020, New York, NY, USA,
+                  February 7-12, 2020},
+  pages        = {9794--9801},
+  publisher    = {{AAAI} Press},
+  year         = {2020},
+  abbr         = {AAAI},
+  pdf          = {https://ojs.aaai.org/index.php/AAAI/article/view/6531},
+  url          = {https://doi.org/10.1609/aaai.v34i06.6531},
+  doi          = {10.1609/AAAI.V34I06.6531},
+  timestamp    = {Sat, 21 Oct 2023 10:46:19 +0200},
+  biburl       = {https://dblp.org/rec/conf/aaai/BrazdilC0V20.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
-@inproceedings{DBLP:conf/concur/MainRS21,
-  author       = {James C. A. Main and
-                  Mickael Randour and
-                  Jeremy Sproston},
-  editor       = {Serge Haddad and
-                  Daniele Varacca},
-  title        = {Time Flies When Looking out of the Window: Timed Games with Window
-                  Parity Objectives},
-  booktitle    = {32nd International Conference on Concurrency Theory, {CONCUR} 2021,
-                  August 24-27, 2021, Virtual Conference},
-  series       = {LIPIcs},
-  volume       = {203},
-  pages        = {25:1--25:16},
-  publisher    = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},
-  year         = {2021},
-  url          = {https://doi.org/10.4230/LIPIcs.CONCUR.2021.25},
-  doi          = {10.4230/LIPICS.CONCUR.2021.25},
-  timestamp    = {Fri, 13 Aug 2021 16:29:32 +0200},
-  biburl       = {https://dblp.org/rec/conf/concur/MainRS21.bib},
+@article{DBLP:journals/fmsd/RandourRS17,
+  author       = {Mickael Randour and
+                  Jean{-}Fran{\c{c}}ois Raskin and
+                  Ocan Sankur},
+  title        = {Percentile queries in multi-dimensional Markov decision processes},
+  journal      = {Formal Methods in System Design},
+  volume       = {50},
+  number       = {2-3},
+  pages        = {207--248},
+  year         = {2017},
+  url          = {https://doi.org/10.1007/s10703-016-0262-7},
+  doi          = {10.1007/S10703-016-0262-7},
+  timestamp    = {Fri, 13 Mar 2020 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/journals/fmsd/RandourRS17.bib},
   bibtex_show  = {true},
-  abbr         = {CONCUR},
-  arxiv        = {2105.06686},
-  abstract     = {The window mechanism was introduced by Chatterjee et al. to reinforce mean-payoff and total-payoff objectives with time bounds in two-player turn-based games on graphs. It has since proved useful in a variety of settings, including parity objectives in games and both mean-payoff and parity objectives in Markov decision processes. We study window parity objectives in timed automata and timed games: given a bound on the window size, a path satisfies such an objective if, in all states along the path, we see a sufficiently small window in which the smallest priority is even. We show that checking that all time-divergent paths of a timed automaton satisfy such a window parity objective can be done in polynomial space, and that the corresponding timed games can be solved in exponential time. This matches the complexity class of timed parity games, while adding the ability to reason about time bounds. We also consider multi-dimensional objectives and show that the complexity class does not increase. To the best of our knowledge, this is the first study of the window mechanism in a real-time setting.},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
-}
-@article{DBLP:journals/iandc/BouyerBRRV22,
-  author       = {Patricia Bouyer and
-                  Thomas Brihaye and
-                  Mickael Randour and
-                  C{\'{e}}dric Rivi{\`{e}}re and
-                  Pierre Vandenhove},
-  title        = {Decisiveness of stochastic systems and its application to hybrid models},
-  journal      = {Information and Computation},
-  volume       = {289},
-  number       = {Part},
-  pages        = {104861},
-  year         = {2022},
-  url          = {https://doi.org/10.1016/j.ic.2021.104861},
-  doi          = {10.1016/J.IC.2021.104861},
-  timestamp    = {Sun, 12 Feb 2023 00:00:00 +0100},
-  biburl       = {https://dblp.org/rec/journals/iandc/BouyerBRRV22.bib},
-  bibtex_show  = {true},
-  abbr         = {Inf. Comput.},
-  arxiv        = {2009.13152},
-  abstract     = {In [ABM07], Abdulla et al. introduced the concept of decisiveness, an interesting tool for lifting good properties of finite Markov chains to denumerable ones. Later, this concept was extended to more general stochastic transition systems (STSs), allowing the design of various verification algorithms for large classes of (infinite) STSs. We further improve the understanding and utility of decisiveness in two ways. First, we provide a general criterion for proving decisiveness of general STSs. This criterion, which is very natural but whose proof is rather technical, (strictly) generalizes all known criteria from the literature. Second, we focus on stochastic hybrid systems (SHSs), a stochastic extension of hybrid systems. We establish the decisiveness of a large class of SHSs and, under a few classical hypotheses from mathematical logic, we show how to decide reachability problems in this class, even though they are undecidable for general SHSs. This provides a decidable stochastic extension of o-minimal hybrid systems. [ABM07] Parosh A. Abdulla, Noomene Ben Henda, and Richard Mayr. 2007. Decisive Markov Chains. Log. Methods Comput. Sci. 3, 4 (2007).},
+  abbr         = {FMSD},
+  arxiv        = {1410.4801},
+  abstract     = {Markov decision processes (MDPs) with multi-dimensional weights are useful to analyze systems with multiple objectives that may be conflicting and require the analysis of trade-offs. We study the complexity of percentile queries in such MDPs and give algorithms to synthesize strategies that enforce such constraints. Given a multi-dimensional weighted MDP and a quantitative payoff function f, thresholds v_i (one per dimension), and probability thresholds α_i, we show how to compute a single strategy to enforce that for all dimensions i, the probability of outcomes ρ satisfying f_i(ρ)≥v_i is at least α_i. We consider classical quantitative payoffs from the literature (sup, inf, lim sup, lim inf, mean-payoff, truncated sum, discounted sum). Our work extends to the quantitative case the multi-objective model checking problem studied by Etessami et al. in unweighted MDPs.},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
