@@ -1,1 +1,0 @@
-### Continuous and timed systems

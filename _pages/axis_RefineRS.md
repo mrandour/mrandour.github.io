@@ -1,1 +1,0 @@
-### Refinement mechanisms in synthesis

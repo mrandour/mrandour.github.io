@@ -315,7 +315,7 @@ scholar:
   first_name: [Mickael]
 
   style: apa
-  # style: /assets/bibliography/springer-lecture-notes-in-computer-science
+  # style: springer-lecture-notes-in-computer-science
   # style: https://github.com/citation-style-language/styles/blob/master/springer-lecture-notes-in-computer-science.csl
   # style: chicago-fullnote-bibliography
   locale: en
