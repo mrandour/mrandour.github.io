@@ -9,11 +9,12 @@ nav_order:
 
 <h4>Upcoming</h4>
   <ul>
-  <li><strong>2024</strong>: Highlights 2024 (Bordeaux).</li>
+  <li><strong>2024</strong>: GT Vérif (Lille).</li>
   </ul>
    <h4>Past</h4>
   <ul>
-  <li><strong>2023</strong>: IJCAI 2023 (Macao), EUMAS 2023 (PC member, Naples), Dagstuhl seminar "The Futures of Reactive Synthesis" (Dagstuhl), GT Vérif 2023 (Paris), Belgian Mathematical Society Young Scholar Day 2023 (Brussels), MOVEP 2024 (PC member, Rennes), Dagstuhl seminar "Stochastic Games" (Dagstuhl).</li>
+  <li><strong>2024</strong>: MOVEP 2024 (PC member, Rennes), Dagstuhl seminar "Stochastic Games" (Dagstuhl), Highlights 2024 (Bordeaux).</li>
+  <li><strong>2023</strong>: IJCAI 2023 (Macao), EUMAS 2023 (PC member, Naples), Dagstuhl seminar "The Futures of Reactive Synthesis" (Dagstuhl), GT Vérif 2023 (Paris), Belgian Mathematical Society Young Scholar Day 2023 (Brussels).</li>
   <li><strong>2022</strong>: STACS 2022 (Marseille - online), GT DAAL 2022 (Lille), GDR IM 2022 (Lille), GAMENET Workshop - Current Trends in Graph and Stochastic Games (Maastricht), HIGHLIGHTS 2022 (Paris), CONCUR 2022 (ToT Award jury, Warsaw), EMSOFT 2022 (PC member WiP track, Shanghai), SETTA 2022 (PC member, Beijing).</li>
   <li><strong>2021</strong>: FMAI 2021 (London), FORMATS 2021 (PC member, Paris), GT Vérif 2021 (Saclay), SETTA 2021 (PC member, Beijing), FSTTCS 2021 (online).</li>
   <li><strong>2020</strong>: ETAPS 2020 (Dublin - cancelled), MFCS 2020 (PC member, Prague - online), CONCUR 2020 (Vienna - online), GandALF 2020 (PC member, Brussels - online), SETTA 2020 (PC member, Guangzhou - online).</li>

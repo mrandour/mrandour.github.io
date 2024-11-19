@@ -7,6 +7,10 @@ nav: false
 nav_order: 
 ---
 
+<div style="text-align: right"><h5>2024–2025</h5></div>
+---
+- **Maximilien Vanhaverbeke** (UMONS, 5th year) on formal methods for epidemic modeling.
+
 <div style="text-align: right"><h5>2023–2024</h5></div>
 ---
 - **Maximilien Vanhaverbeke** (UMONS, 5th year) on formal methods for epidemic modeling.

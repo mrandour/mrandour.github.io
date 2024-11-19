@@ -153,3 +153,44 @@
   exit_year: 2019
   # social
   dblp_url: https://dblp.org/pid/117/1724.html
+  
+  
+- firstname: Sanjana
+  lastname: Dey
+  position: Postdoc
+  image: SDey.jpg
+  url: https://sites.google.com/view/sanjanadey/home
+  teaser: >
+    Sanjana is supervised by Mickael Randour (UMONS, Belgium). She is working on the F.R.S.-FNRS project ControlleRS. She is an expert in approximation and exact algorithms for problems in computational geometry and graphs.
+  interests:
+    - theoretical computer science
+    - formal methods
+    - controller synthesis
+    - algorithms
+  # former
+  former: 
+  start_year: 2024
+  exit_year: 
+  # social
+  email: sanjana.dey@umons.ac.be
+  dblp_url: https://dblp.org/pid/222/0429.html
+  
+  
+- firstname: Sougata
+  lastname: Bose
+  position: Postdoc
+  image: SBose.jpg
+  url: https://sites.google.com/view/sougatabose
+  teaser: >
+    Sougata is supervised by Mickael Randour (UMONS, Belgium). He is working on the F.R.S.-FNRS project ControlleRS. He is an expert in strategy complexity and automata models for controller synthesis.
+  interests:
+    - controller synthesis
+    - automata
+    - strategy complexity
+  # former
+  former: 
+  start_year: 2025
+  exit_year: 
+  # social
+  email: sougata.bose@umons.ac.be
+  dblp_url: https://dblp.org/pid/223/9986.html
