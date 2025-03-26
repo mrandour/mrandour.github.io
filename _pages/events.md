@@ -9,7 +9,7 @@ nav_order:
 
 <h4>Upcoming</h4>
   <ul>
-  <li><strong>2025</strong>: CONCUR 2025 (PC member, Aarhus).</li>
+  <li><strong>2025</strong>: CONCUR 2025 (PC member, Aarhus), RP 2025 (Invited speaker, Madrid).</li>
   </ul>
    <h4>Past</h4>
   <ul>
