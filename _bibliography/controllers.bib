@@ -135,3 +135,33 @@
   arxiv        = {2201.10825},
   abstract     = {Two-player (antagonistic) games on (possibly stochastic) graphs are a prevalent model in theoretical computer science, notably as a framework for reactive synthesis. Optimal strategies may require randomisation when dealing with inherently probabilistic goals, balancing multiple objectives, or in contexts of partial information. There is no unique way to define randomised strategies. For instance, one can use so-called mixed strategies or behavioural ones. In the most general settings, these two classes do not share the same expressiveness. A seminal result in game theory - Kuhn's theorem - asserts their equivalence in games of perfect recall. This result crucially relies on the possibility for strategies to use infinite memory, i.e., unlimited knowledge of all past observations. However, computer systems are finite in practice. Hence it is pertinent to restrict our attention to finite-memory strategies, defined as automata with outputs. Randomisation can be implemented in these in different ways: the initialisation, outputs or transitions can be randomised or deterministic respectively. Depending on which aspects are randomised, the expressiveness of the corresponding class of finite-memory strategies differs. In this work, we study two-player turn-based stochastic games and provide a complete taxonomy of the classes of finite-memory strategies obtained by varying which of the three aforementioned components are randomised. Our taxonomy holds both in settings of perfect and imperfect information, and in games with more than two players.}
 }
+@article{cocktail,
+  author       = {James C. A. Main and
+                  Mickael Randour},
+  title        = {Mixing Any Cocktail with Limited Ingredients: On the Structure of
+                  Payoff Sets in Multi-Objective MDPs and its Impact on Randomised Strategies},
+  journal      = {CoRR},
+  arxiv        = {2502.18296},
+  volume       = {abs/2502.18296},
+  year         = {2025},
+  bibtex_show  = {true},
+  abbr         = {arXiv},
+  award        = {Unpublished work.},
+  award_name   = {Preprint},
+  abstract     = {We consider multi-dimensional payoff functions in Markov decision processes, and ask whether a given expected payoff vector can be achieved or not. In general, pure strategies (i.e., not resorting to randomisation) do not suffice for this problem.
+We study the structure of the set of expected payoff vectors of all strategies given a multi-dimensional payoff function and its consequences regarding randomisation requirements for strategies. In particular, we prove that for any payoff for which the expectation is well-defined under all strategies, it is sufficient to mix (i.e., randomly select a pure strategy at the start of a play and committing to it for the rest of the play) finitely many pure strategies to approximate any expected payoff vector up to any precision. Furthermore, for any payoff for which the expected payoff is finite under all strategies, any expected payoff can be obtained exactly by mixing finitely many strategies.}
+}
+@article{chunck,
+  author       = {Michal Ajdarów and James C. A. Main and Petr Novotný and Mickael Randour},
+  title        = {Taming Infinity one Chunk at a Time: Concisely Represented Strategies in One-Counter MDPs},
+  journal      = {CoRR},
+  arxiv        = {2503.00788},
+  volume       = {abs/2503.00788},
+  year         = {2025},
+  bibtex_show  = {true},
+  abbr         = {arXiv},
+  award        = {Unpublished work.},
+  award_name   = {Preprint},
+  abstract     = {Markov decision processes (MDPs) are a canonical model to reason about decision making within a stochastic environment. We study a fundamental class of infinite MDPs: one-counter MDPs (OC-MDPs). They extend finite MDPs via an associated counter taking natural values, thus inducing an infinite MDP over the set of configurations (current state and counter value). We consider two characteristic objectives: reaching a target state (state-reachability), and reaching a target state with counter value zero (selective termination). The synthesis problem for the latter is not known to be decidable and connected to major open problems in number theory. Furthermore, even seemingly simple strategies (e.g., memoryless ones) in OC-MDPs might be impossible to build in practice (due to the underlying infinite configuration space): we need finite, and preferably small, representations.
+To overcome these obstacles, we introduce two natural classes of concisely represented strategies based on a (possibly infinite) partition of counter values in intervals. For both classes, and both objectives, we study the verification problem (does a given strategy ensure a high enough probability for the objective?), and two synthesis problems (does there exist such a strategy?): one where the interval partition is fixed as input, and one where it is only parameterized. We develop a generic approach based on a compression of the induced infinite MDP that yields decidability in all cases, with all complexities within PSPACE. }
+}
