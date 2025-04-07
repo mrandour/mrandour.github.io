@@ -165,3 +165,19 @@ We study the structure of the set of expected payoff vectors of all strategies g
   abstract     = {Markov decision processes (MDPs) are a canonical model to reason about decision making within a stochastic environment. We study a fundamental class of infinite MDPs: one-counter MDPs (OC-MDPs). They extend finite MDPs via an associated counter taking natural values, thus inducing an infinite MDP over the set of configurations (current state and counter value). We consider two characteristic objectives: reaching a target state (state-reachability), and reaching a target state with counter value zero (selective termination). The synthesis problem for the latter is not known to be decidable and connected to major open problems in number theory. Furthermore, even seemingly simple strategies (e.g., memoryless ones) in OC-MDPs might be impossible to build in practice (due to the underlying infinite configuration space): we need finite, and preferably small, representations.
 To overcome these obstacles, we introduce two natural classes of concisely represented strategies based on a (possibly infinite) partition of counter values in intervals. For both classes, and both objectives, we study the verification problem (does a given strategy ensure a high enough probability for the objective?), and two synthesis problems (does there exist such a strategy?): one where the interval partition is fixed as input, and one where it is only parameterized. We develop a generic approach based on a compression of the induced infinite MDP that yields decidability in all cases, with all complexities within PSPACE. }
 }
+@article{hamming,
+  author       = {Sudatta Bhattacharya and Sanjana Dey and Elazar Goldenberg and Mursalin Habib and Bernhard Haeupler and Karthik C. S. and Michal Koucký},
+  title        = {Constant Rate Isometric Embeddings of Hamming Metric into Edit Metric},
+  journal      = {CoRR},
+  arxiv        = {2504.03605},
+  volume       = {abs/2504.03605},
+  year         = {2025},
+  bibtex_show  = {true},
+  abbr         = {arXiv},
+  award        = {Unpublished work.},
+  award_name   = {Preprint},
+  abstract     = {A function φ:{0,1}n→{0,1}N is called an isometric embedding of the n-dimensional Hamming metric space to the N-dimensional edit metric space if, for all x,y∈{0,1}n, the Hamming distance between x and y is equal to the edit distance between φ(x) and φ(y). The rate of such an embedding is defined as the ratio n/N. It is well known in the literature how to construct isometric embeddings with a rate of Ω(1logn). However, achieving even near-isometric embeddings with a positive constant rate has remained elusive until now.
+In this paper, we present an isometric embedding with a rate of 1/8 by discovering connections to synchronization strings, which were studied in the context of insertion-deletion codes (Haeupler-Shahrasbi [JACM'21]). At a technical level, we introduce a framework for obtaining high-rate isometric embeddings using a novel object called misaligners. As an immediate consequence of our constant rate isometric embedding, we improve known conditional lower bounds for various optimization problems in the edit metric, but now with optimal dependency on the dimension.
+We complement our results by showing that no isometric embedding φ:{0,1}n→{0,1}N can have rate greater than 15/32 for all positive integers n. En route to proving this upper bound, we uncover fundamental structural properties necessary for every Hamming-to-edit isometric embedding. We also prove similar upper and lower bounds for embeddings over larger alphabets.
+Finally, we consider embeddings φ:Σnin→ΣNout between different input and output alphabets, where the rate is given by nlog|Σin|Nlog|Σout|. In this setting, we show that the rate can be made arbitrarily close to 1. }
+}
