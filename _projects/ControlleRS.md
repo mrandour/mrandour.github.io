@@ -39,7 +39,7 @@ related_publications: false
 <p>The goal of ControlleRS is to challenge the key concept of strategy, currently based on automata-like finite-state machines acting as blueprints for implementable controllers. I aim to broaden the theoretical understanding and the practical usefulness of this abstract concept through the systematic study of alternative strategy models over the complete span from theoretical power to proper applicability. This endeavor promises fundamental advances toward truly implementable many-sided synthesis.</p>
 
 
-<h3>Publications supported by the project: 9</h3>
+<h3>Publications supported by the project: 10</h3>
 
 <div class="publications">
  {% bibliography -f controllers --template bib --group_by type --group_order descending,descending %}
