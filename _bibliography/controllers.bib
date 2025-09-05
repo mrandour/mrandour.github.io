@@ -225,7 +225,7 @@ We demonstrate that on static graphs, where edges are always available, solving 
                   Mateusz Skomra and
                   Nathalie Sznajder and
                   Pierre Vandenhove},
-  title        = {Games on Graphs},
+  title        = {Games on Graphs: From Logic and Automata to Algorithms},
   publisher    = {Cambridge University Press},
   note         = {In press, Cambridge University Press},
   volume       = {abs/2305.10546},
@@ -265,4 +265,17 @@ In this paper, we first provide a novel algorithm that achieves  -approximation 
   bibtex_show  = {true},
   abbr         = {GandALF},
   abstract     = {Classic reachability games on graphs are zero-sum games, where the goal of one player, Eve, is to visit a vertex from a given target set, and that of other player, Adam, is to prevent this. Generalised reachability games, studied by Fijalkow and Horn, are a generalisation of reachability objectives, where instead of a single target set, there is a family of target sets and Eve must visit all of them in any order. In this work, we further study the complexity of solving two-player games on graphs with generalised reachability objectives. Our results are twofold: first, we provide an improved complexity picture for generalised reachability games, expanding the known tractable class from games in which all target sets are singleton to additionally allowing a logarithmic number of target sets of arbitrary size. Second, we study optimisation variants of generalised reachability with a focus on the size of the target sets. For these problems, we show intractability for most interesting cases. Particularly, in contrast to the tractability in the classic variant for singleton target sets, the optimisation problem is NP-hard when Eve tries to maximise the number of singleton target sets that are visited. Tractability can be recovered in the optimisation setting when all target sets are singleton by requiring that Eve pledges a maximum sized subset of target sets that she can guarantee to visit.}
+}
+@article{DEV2025598,
+title = {Monitoring edge-geodetic sets in graphs},
+journal = {Discrete Applied Mathematics},
+volume = {377},
+pages = {598-610},
+year = {2025},
+issn = {0166-218X},
+doi = {https://doi.org/10.1016/j.dam.2025.08.041},
+url = {https://www.sciencedirect.com/science/article/pii/S0166218X25004822},
+author = {Subhadeep R. Dev and Sanjana Dey and Florent Foucaud and Krishna Narayanan and Lekshmi Ramasubramony Sulochana},
+keywords = {Monitoring, Edge-geodetic set, Feedback edge set, NP-completeness},
+abstract = {We introduce a new graph-theoretic concept in the area of network monitoring. In this area, one wishes to monitor the vertices and/or the edges of a network (viewed as a graph) in order to detect and prevent failures. Inspired by two notions studied in the literature (edge-geodetic sets and distance-edge-monitoring sets), we define the notion of a monitoring edge-geodetic set (MEG-set for short) of a graph G as an edge-geodetic set S⊆V(G) of G (that is, every edge of G lies on some shortest path between two vertices of S) with the additional property that for every edge e of G, there is a vertex pair x,y of S such that e lies on all shortest paths between x and y. The motivation is that, if some edge e is removed from the network (for example if it ceases to function), the monitoring probes x and y will detect the failure since the distance between them will increase. We explore the notion of MEG-sets by deriving the minimum size of a MEG-set for some basic graph classes (trees, cycles, unicyclic graphs, complete graphs, grids, hypercubes, corona products...) and we prove an upper bound using the feedback edge set of the graph. We also show that determining the smallest size of an MEG-set of a graph is NP-hard, even for graphs of maximum degree at most 9.}
 }
