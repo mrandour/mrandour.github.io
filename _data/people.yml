@@ -4,7 +4,7 @@
   image: JCAMain.jpg
   url: https://alexandermain.github.io/
   teaser: >
-    James was supervised by Mickael Randour (UMONS, Belgium). His PhD was funded by the F.R.S.-FNRS. His research interests lie in the game-theoretic approach to the synthesis of controllers for reactive systems and the models used for the representation of these controllers. He is also interested in timed systems.
+    James was supervised by Mickael Randour (UMONS, Belgium). His PhD was funded by the F.R.S.-FNRS. His research interests lie in the game-theoretic approach to the synthesis of controllers for reactive systems and the models used for the representation of these controllers. He is also interested in timed systems. Thesis title: <em>The Many Faces of Strategy Complexity</em>.
   interests:
     - controller representation
     - nature of randomness
