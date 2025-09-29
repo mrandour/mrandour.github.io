@@ -4,16 +4,17 @@
   image: JCAMain.jpg
   url: https://alexandermain.github.io/
   teaser: >
-    James is supervised by Mickael Randour (UMONS, Belgium). His PhD is funded by the F.R.S.-FNRS. His research interests lie in the game-theoretic approach to the synthesis of controllers for reactive systems and the models used for the representation of these controllers. He is also interested in timed systems.
+    James was supervised by Mickael Randour (UMONS, Belgium). His PhD was funded by the F.R.S.-FNRS. His research interests lie in the game-theoretic approach to the synthesis of controllers for reactive systems and the models used for the representation of these controllers. He is also interested in timed systems.
   interests:
     - controller representation
     - nature of randomness
     - game theory
     - memory bounds
   # former
-  former: 
+  former: true
   start_year: 2021
-  exit_year: 
+  exit_year: 2025
+  newposition: Research Fellow, University of Oxford, UK.
   # social
   email: james.main@umons.ac.be
   github_username: # your GitHub user name
