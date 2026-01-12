@@ -7,6 +7,10 @@ nav: false
 nav_order: 
 ---
 
+<div style="text-align: right"><h5>2025–2026</h5></div>
+---
+- **Leonard Boeuf** (ENS Paris-Saclay) on counting strategies.
+
 <div style="text-align: right"><h5>2023–2024</h5></div>
 ---
 - **Baptiste Hilaire** (ENS Paris-Saclay) on decision tree representations of strategies.
