@@ -5,7 +5,7 @@ title: CV
 nav: true
 nav_order: 5
 cv_pdf: cv.pdf
-description: Updated on August 2, 2025.
+description: Updated on January 12, 2026.
 toc:
   sidebar: left
 ---
