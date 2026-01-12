@@ -262,6 +262,7 @@ In this paper, we first provide a novel algorithm that achieves  -approximation 
                   16-17, 2025},
   series       = {{EPTCS}},
   year         = {2025},
+  arxiv = {2509.14091},
   bibtex_show  = {true},
   abbr         = {GandALF},
   abstract     = {Classic reachability games on graphs are zero-sum games, where the goal of one player, Eve, is to visit a vertex from a given target set, and that of other player, Adam, is to prevent this. Generalised reachability games, studied by Fijalkow and Horn, are a generalisation of reachability objectives, where instead of a single target set, there is a family of target sets and Eve must visit all of them in any order. In this work, we further study the complexity of solving two-player games on graphs with generalised reachability objectives. Our results are twofold: first, we provide an improved complexity picture for generalised reachability games, expanding the known tractable class from games in which all target sets are singleton to additionally allowing a logarithmic number of target sets of arbitrary size. Second, we study optimisation variants of generalised reachability with a focus on the size of the target sets. For these problems, we show intractability for most interesting cases. Particularly, in contrast to the tractability in the classic variant for singleton target sets, the optimisation problem is NP-hard when Eve tries to maximise the number of singleton target sets that are visited. Tractability can be recovered in the optimisation setting when all target sets are singleton by requiring that Eve pledges a maximum sized subset of target sets that she can guarantee to visit.}
@@ -278,6 +279,29 @@ url = {https://www.sciencedirect.com/science/article/pii/S0166218X25004822},
 author = {Subhadeep R. Dev and Sanjana Dey and Florent Foucaud and Krishna Narayanan and Lekshmi Ramasubramony Sulochana},
 keywords = {Monitoring, Edge-geodetic set, Feedback edge set, NP-completeness},
   bibtex_show  = {true},
+  arxiv = {2210.03774},
   abbr         = {Disc. App. Math.},
 abstract = {We introduce a new graph-theoretic concept in the area of network monitoring. In this area, one wishes to monitor the vertices and/or the edges of a network (viewed as a graph) in order to detect and prevent failures. Inspired by two notions studied in the literature (edge-geodetic sets and distance-edge-monitoring sets), we define the notion of a monitoring edge-geodetic set (MEG-set for short) of a graph G as an edge-geodetic set S⊆V(G) of G (that is, every edge of G lies on some shortest path between two vertices of S) with the additional property that for every edge e of G, there is a vertex pair x,y of S such that e lies on all shortest paths between x and y. The motivation is that, if some edge e is removed from the network (for example if it ceases to function), the monitoring probes x and y will detect the failure since the distance between them will increase. We explore the notion of MEG-sets by deriving the minimum size of a MEG-set for some basic graph classes (trees, cycles, unicyclic graphs, complete graphs, grids, hypercubes, corona products...) and we prove an upper bound using the feedback edge set of the graph. We also show that determining the smallest size of an MEG-set of a graph is NP-hard, even for graphs of maximum degree at most 9.}
+}
+@inproceedings{beholder,
+  author       = {Mickael Randour},
+  editor       = {Pierre Ganty and
+                  Alessio Mansutti},
+  title        = {Simplicity Lies in the Eye of the Beholder: {A} Strategic Perspective
+                  on Controllers in Reactive Synthesis},
+  booktitle    = {Reachability Problems - 19th International Conference, {RP} 2025,
+                  Madrid, Spain, October 1-3, 2025, Proceedings},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {16230},
+  pages        = {31--48},
+  publisher    = {Springer},
+  year         = {2025},
+  url          = {https://doi.org/10.1007/978-3-032-09524-4\_3},
+  doi          = {10.1007/978-3-032-09524-4\_3},
+  arxiv = {2509.04129},
+  abstract = {In the game-theoretic approach to controller synthesis, we model the interaction between a system to be controlled and its environment as a game between these entities, and we seek an appropriate (e.g., winning or optimal) strategy for the system. This strategy then serves as a formal blueprint for a real-world controller. A common belief is that simple (e.g., using limited memory) strategies are better: corresponding controllers are easier to conceive and understand, and cheaper to produce and maintain.
+This invited contribution focuses on the complexity of strategies in a variety of synthesis contexts. We discuss recent results concerning memory and randomness, and take a brief look at what lies beyond our traditional notions of complexity for strategies.},
+  abbr = {RP},
+  award        = {RP'25 - Keynote speaker},
+  award_name   = {Invited paper}  
 }
