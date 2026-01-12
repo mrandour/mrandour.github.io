@@ -58,7 +58,7 @@ single-sided qualitative and quantitative models to many-sided ones,
 developing fundamental advances in this direction. </p>
 
 
-<h3>Publications supported by the project: 18 (2 best paper awards, 1 book)</h3>
+<h3>Publications supported by the project: 19 (2 best paper awards, 1 book)</h3>
 
 <div class="publications">
  {% bibliography -f manysynth --template bib --group_by type --group_order descending,descending %}
