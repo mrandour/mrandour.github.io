@@ -9,7 +9,8 @@ nav_order:
 
 <h4>Upcoming</h4>
   <ul>
-  <li><strong>2026</strong>: <em>TBA</em>.</li>
+  <li><strong>2026</strong>: <em>GandALF 2027 (organizer, PC co-chair)</em>.</li>
+  <li><strong>2026</strong>: <em>GDR IFM 20th anniversary (Paris), GandALF 2026 (PC co-chair)</em>.</li>
   </ul>
    <h4>Past</h4>
   <ul>
