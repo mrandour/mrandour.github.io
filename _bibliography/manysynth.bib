@@ -1,3 +1,26 @@
+@inproceedings{beholder,
+  author       = {Mickael Randour},
+  editor       = {Pierre Ganty and
+                  Alessio Mansutti},
+  title        = {Simplicity Lies in the Eye of the Beholder: {A} Strategic Perspective
+                  on Controllers in Reactive Synthesis},
+  booktitle    = {Reachability Problems - 19th International Conference, {RP} 2025,
+                  Madrid, Spain, October 1-3, 2025, Proceedings},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {16230},
+  pages        = {31--48},
+  publisher    = {Springer},
+  year         = {2025},
+  url          = {https://doi.org/10.1007/978-3-032-09524-4\_3},
+  doi          = {10.1007/978-3-032-09524-4\_3},
+  arxiv = {2509.04129},
+  abstract = {In the game-theoretic approach to controller synthesis, we model the interaction between a system to be controlled and its environment as a game between these entities, and we seek an appropriate (e.g., winning or optimal) strategy for the system. This strategy then serves as a formal blueprint for a real-world controller. A common belief is that simple (e.g., using limited memory) strategies are better: corresponding controllers are easier to conceive and understand, and cheaper to produce and maintain.
+This invited contribution focuses on the complexity of strategies in a variety of synthesis contexts. We discuss recent results concerning memory and randomness, and take a brief look at what lies beyond our traditional notions of complexity for strategies.},
+  abbr = {RP},
+  bibtex_show  = {true},
+  award        = {RP'25 - Keynote speaker},
+  award_name   = {Invited paper}  
+}
 @inproceedings{DBLP:conf/fsttcs/BouyerRV22,
   author       = {Patricia Bouyer and
                   Mickael Randour and
@@ -24,32 +47,6 @@
   abbr         = {FSTTCS},
   pdf          = {https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.FSTTCS.2022.3},
   abstract     = {Two-player turn-based zero-sum games on (finite or infinite) graphs are a central framework in theoretical computer science - notably as a tool for controller synthesis, but also due to their connection with logic and automata theory. A crucial challenge in the field is to understand how complex strategies need to be to play optimally, given a type of game and a winning objective. In this invited contribution, we give a tour of recent advances aiming to characterize games where finite-memory strategies suffice (i.e., using a limited amount of information about the past). We mostly focus on so-called chromatic memory, which is limited to using colors - the basic building blocks of objectives - seen along a play to update itself. Chromatic memory has the advantage of being usable in different game graphs, and the corresponding class of strategies turns out to be of great interest to both the practical and the theoretical sides},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
-}
-@inproceedings{DBLP:journals/corr/abs-2001-04347,
-  author       = {Patricia Bouyer and
-                  Thomas Brihaye and
-                  Mickael Randour and
-                  C{\'{e}}dric Rivi{\`{e}}re and
-                  Pierre Vandenhove},
-  editor       = {Jean{-}Fran{\c{c}}ois Raskin and
-                  Davide Bresolin},
-  title        = {Decisiveness of Stochastic Systems and its Application to Hybrid Models},
-  booktitle    = {Proceedings 11th International Symposium on Games, Automata, Logics,
-                  and Formal Verification, GandALF 2020, Brussels, Belgium, September
-                  21-22, 2020},
-  series       = {{EPTCS}},
-  volume       = {326},
-  pages        = {149--165},
-  year         = {2020},
-  url          = {https://doi.org/10.4204/EPTCS.326.10},
-  doi          = {10.4204/EPTCS.326.10},
-  timestamp    = {Sun, 12 Feb 2023 00:00:00 +0100},
-  biburl       = {https://dblp.org/rec/journals/corr/abs-2001-04347.bib},
-  bibtex_show  = {true},
-  abbr         = {GandALF},
-  arxiv        = {2009.13152},
-  abstract     = {In [ABM07], Abdulla et al. introduced the concept of decisiveness, an interesting tool for lifting good properties of finite Markov chains to denumerable ones. Later, this concept was extended to more general stochastic transition systems (STSs), allowing the design of various verification algorithms for large classes of (infinite) STSs. We further improve the understanding and utility of decisiveness in two ways. First, we provide a general criterion for proving decisiveness of general STSs. This criterion, which is very natural but whose proof is rather technical, (strictly) generalizes all known criteria from the literature. Second, we focus on stochastic hybrid systems (SHSs), a stochastic extension of hybrid systems. We establish the decisiveness of a large class of SHSs and, under a few classical hypotheses from mathematical logic, we show how to decide reachability problems in this class, even though they are undecidable for general SHSs. This provides a decidable stochastic extension of o-minimal hybrid systems. [ABM07] Parosh A. Abdulla, Noomene Ben Henda, and Richard Mayr. 2007. Decisive Markov Chains. Log. Methods Comput. Sci. 3, 4 (2007).},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 @article{DBLP:journals/iandc/BouyerBRRV22,
@@ -145,7 +142,6 @@
   abstract     = {The window mechanism was introduced by Chatterjee et al. to reinforce mean-payoff and total-payoff objectives with time bounds in two-player turn-based games on graphs. It has since proved useful in a variety of settings, including parity objectives in games and both mean-payoff and parity objectives in Markov decision processes. We study window parity objectives in timed automata and timed games: given a bound on the window size, a path satisfies such an objective if, in all states along the path, we see a sufficiently small window in which the smallest priority is even. We show that checking that all time-divergent paths of a timed automaton satisfy such a window parity objective can be done in polynomial space, and that the corresponding timed games can be solved in exponential time. This matches the complexity class of timed parity games, while adding the ability to reason about time bounds. We also consider multi-dimensional objectives and show that the complexity class does not increase. To the best of our knowledge, this is the first study of the window mechanism in a real-time setting.},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
-
 @article{DBLP:journals/lmcs/BrihayeDOR20,
   author       = {Thomas Brihaye and
                   Florent Delgrange and
@@ -166,7 +162,6 @@
   abstract     = {The window mechanism was introduced by Chatterjee et al. to strengthen classical game objectives with time bounds. It permits to synthesize system controllers that exhibit acceptable behaviors within a configurable time frame, all along their infinite execution, in contrast to the traditional objectives that only require correctness of behaviors in the limit. The window concept has proved its interest in a variety of two-player zero-sum games because it enables reasoning about such time bounds in system specifications, but also thanks to the increased tractability that it usually yields. In this work, we extend the window framework to stochastic environments by considering Markov decision processes. A fundamental problem in this context is the threshold probability problem: given an objective it aims to synthesize strategies that guarantee satisfying runs with a given probability. We solve it for the usual variants of window objectives, where either the time frame is set as a parameter, or we ask if such a time frame exists. We develop a generic approach for window-based objectives and instantiate it for the classical mean-payoff and parity objectives, already considered in games. Our work paves the way to a wide use of the window mechanism in stochastic models.},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
-
 @inproceedings{DBLP:conf/concur/Bouyer0ORV20,
   author       = {Patricia Bouyer and
                   St{\'{e}}phane Le Roux and
@@ -193,7 +188,6 @@
   abstract     = {For decades, two-player (antagonistic) games on graphs have been a framework of choice for many important problems in theoretical computer science. A notorious one is controller synthesis, which can be rephrased through the game-theoretic metaphor as the quest for a winning strategy of the system in a game against its antagonistic environment. Depending on the specification, optimal strategies might be simple or quite complex, for example having to use (possibly infinite) memory. Hence, research strives to understand which settings allow for simple strategies. In 2005, Gimbert and Zielonka provided a complete characterization of preference relations (a formal framework to model specifications and game objectives) that admit memoryless optimal strategies for both players. In the last fifteen years however, practical applications have driven the community toward games with complex or multiple objectives, where memory -- finite or infinite -- is almost always required. Despite much effort, the exact frontiers of the class of preference relations that admit finite-memory optimal strategies still elude us. In this work, we establish a complete characterization of preference relations that admit optimal strategies using arena-independent finite memory, generalizing the work of Gimbert and Zielonka to the finite-memory case. We also prove an equivalent to their celebrated corollary of great practical interest: if both players have optimal (arena-independent-)finite-memory strategies in all one-player games, then it is also the case in all two-player games. Finally, we pinpoint the boundaries of our results with regard to the literature: our work completely covers the case of arena-independent memory (e.g., multiple parity objectives, lower- and upper-bounded energy objectives), and paves the way to the arena-dependent case (e.g., multiple lower-bounded energy objectives).},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
-
 @inproceedings{DBLP:conf/tacas/DelgrangeKQR20,
   author       = {Florent Delgrange and
                   Joost{-}Pieter Katoen and
@@ -244,6 +238,32 @@
   abbr         = {CAV},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
+@inproceedings{DBLP:journals/corr/abs-2001-04347,
+  author       = {Patricia Bouyer and
+                  Thomas Brihaye and
+                  Mickael Randour and
+                  C{\'{e}}dric Rivi{\`{e}}re and
+                  Pierre Vandenhove},
+  editor       = {Jean{-}Fran{\c{c}}ois Raskin and
+                  Davide Bresolin},
+  title        = {Decisiveness of Stochastic Systems and its Application to Hybrid Models},
+  booktitle    = {Proceedings 11th International Symposium on Games, Automata, Logics,
+                  and Formal Verification, GandALF 2020, Brussels, Belgium, September
+                  21-22, 2020},
+  series       = {{EPTCS}},
+  volume       = {326},
+  pages        = {149--165},
+  year         = {2020},
+  url          = {https://doi.org/10.4204/EPTCS.326.10},
+  doi          = {10.4204/EPTCS.326.10},
+  timestamp    = {Sun, 12 Feb 2023 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2001-04347.bib},
+  bibtex_show  = {true},
+  abbr         = {GandALF},
+  arxiv        = {2009.13152},
+  abstract     = {In [ABM07], Abdulla et al. introduced the concept of decisiveness, an interesting tool for lifting good properties of finite Markov chains to denumerable ones. Later, this concept was extended to more general stochastic transition systems (STSs), allowing the design of various verification algorithms for large classes of (infinite) STSs. We further improve the understanding and utility of decisiveness in two ways. First, we provide a general criterion for proving decisiveness of general STSs. This criterion, which is very natural but whose proof is rather technical, (strictly) generalizes all known criteria from the literature. Second, we focus on stochastic hybrid systems (SHSs), a stochastic extension of hybrid systems. We establish the decisiveness of a large class of SHSs and, under a few classical hypotheses from mathematical logic, we show how to decide reachability problems in this class, even though they are undecidable for general SHSs. This provides a decidable stochastic extension of o-minimal hybrid systems. [ABM07] Parosh A. Abdulla, Noomene Ben Henda, and Richard Mayr. 2007. Decisive Markov Chains. Log. Methods Comput. Sci. 3, 4 (2007).},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
 @inproceedings{DBLP:conf/ictac/BlahoudekMS19,
   author       = {Frantisek Blahoudek and
                   Juraj Major and
@@ -269,7 +289,6 @@
   arxiv        = {1908.04645},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
-
 @inproceedings{DBLP:conf/concur/BrihayeDOR19,
   author       = {Thomas Brihaye and
                   Florent Delgrange and
@@ -467,27 +486,4 @@
   bibtex_show  = {true},
   abstract     = {The objective of this collaborative textbook is to present the state of the art on games on graphs, which is part of a larger research topic called game theory. Games on graphs is the field concerned with games whose rules and evolution are represented by a graph.},
   abbr         = {CUP}
-}
-@inproceedings{beholder,
-  author       = {Mickael Randour},
-  editor       = {Pierre Ganty and
-                  Alessio Mansutti},
-  title        = {Simplicity Lies in the Eye of the Beholder: {A} Strategic Perspective
-                  on Controllers in Reactive Synthesis},
-  booktitle    = {Reachability Problems - 19th International Conference, {RP} 2025,
-                  Madrid, Spain, October 1-3, 2025, Proceedings},
-  series       = {Lecture Notes in Computer Science},
-  volume       = {16230},
-  pages        = {31--48},
-  publisher    = {Springer},
-  year         = {2025},
-  url          = {https://doi.org/10.1007/978-3-032-09524-4\_3},
-  doi          = {10.1007/978-3-032-09524-4\_3},
-  arxiv = {2509.04129},
-  abstract = {In the game-theoretic approach to controller synthesis, we model the interaction between a system to be controlled and its environment as a game between these entities, and we seek an appropriate (e.g., winning or optimal) strategy for the system. This strategy then serves as a formal blueprint for a real-world controller. A common belief is that simple (e.g., using limited memory) strategies are better: corresponding controllers are easier to conceive and understand, and cheaper to produce and maintain.
-This invited contribution focuses on the complexity of strategies in a variety of synthesis contexts. We discuss recent results concerning memory and randomness, and take a brief look at what lies beyond our traditional notions of complexity for strategies.},
-  abbr = {RP},
-  bibtex_show  = {true},
-  award        = {RP'25 - Keynote speaker},
-  award_name   = {Invited paper}  
 }
