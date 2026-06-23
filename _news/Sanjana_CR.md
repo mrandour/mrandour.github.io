@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Congratulations to <a href="https://www.randour.com/team/">Sanjana Dey</a> for obtaining a F.R.S.-FNRS Postdoctoral Fellowship within our group!
+Congratulations to <a href="https://www.randour.com/team/">Sanjana Dey</a> for obtaining an F.R.S.-FNRS Postdoctoral Fellowship within our group!
