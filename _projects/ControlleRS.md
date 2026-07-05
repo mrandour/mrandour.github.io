@@ -21,14 +21,14 @@ related_publications: false
   <li><a href="http://www.frs-fnrs.be/">FNRS</a> Research Project. </li>
   <li>Project leader: Mickael Randour.</li>
   <li>Duration: January 2023 to December 2026. Budget ~270.000 euros.</li>
-  <li><strong style="color:Crimson;">Postdoctoral positions are available: contact me!</strong> Here is a non-exhaustive list of possible topics:
+  <!--<li><strong style="color:Crimson;">Postdoctoral positions are available: contact me!</strong> Here is a non-exhaustive list of possible topics:
 	<ul>
 		<li>multi-criteria approaches in formal methods,</li>
 		<li>machine learning and AI,</li>
 		<li>synthesis in stochastic systems,</li>
 		<li>tool development,</li>
 		<li>industrial applications.</li>
-	</ul></li>
+	</ul></li>-->
   </ul>
 
 
