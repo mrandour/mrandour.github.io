@@ -13,13 +13,13 @@ related_publications: false
 
 The whole course is worth 12 ECTS, and takes place over two semesters (120 hours in total). During the first semester, we focus on the *foundations* of model checking and synthesis. My notes are heavily inspired by the wonderful book *<a href="https://mitpress.mit.edu/9780262026499/principles-of-model-checking/">Principles of Model Checking</a>* by Baier & Katoen. The topics I cover are as follow:
 <ul>
-<li>Full course outline. <a href="/assets/pdf/toc.pdf">[PDF]</a></li>
-<li>Chapter 1: Formal verification. <a href="/assets/pdf/Chapter_1_handout.pdf">[Slides]</a></li>
-<li>Chapter 2: Modeling systems. <a href="/assets/pdf/Chapter_2_handout.pdf">[Slides]</a></li>
-<li>Chapter 3: Linear temporal logic. <a href="/assets/pdf/Chapter_3_handout.pdf">[Slides]</a></li>
-<li>Chapter 4: Computation tree logic. <a href="/assets/pdf/Chapter_4_handout.pdf">[Slides]</a></li>
-<li>Chapter 5: Symbolic model checking. <a href="/assets/pdf/Chapter_5_handout.pdf">[Slides]</a></li>
-<li>Chapter 6: Model checking probabilistic systems. <a href="/assets/pdf/Chapter_6_handout.pdf">[Slides]</a></li>
+<li>Full course outline. <a href="/assets/pdf/FMSD_toc.pdf">[PDF]</a></li>
+<li>Chapter 1: Formal verification. <a href="/assets/pdf/FMSD_1.pdf">[Slides]</a></li>
+<li>Chapter 2: Modeling systems. <a href="/assets/pdf/FMSD_2.pdf">[Slides]</a></li>
+<li>Chapter 3: Linear temporal logic. <a href="/assets/pdf/FMSD_3.pdf">[Slides]</a></li>
+<li>Chapter 4: Computation tree logic. <a href="/assets/pdf/FMSD_4.pdf">[Slides]</a></li>
+<li>Chapter 5: Symbolic model checking. <a href="/assets/pdf/FMSD_5.pdf">[Slides]</a></li>
+<li>Chapter 6: Model checking probabilistic systems. <a href="/assets/pdf/FMSD_6.pdf">[Slides]</a></li>
 <li>Chapter 7: Synthesis through game theory.</li>
 </ul>
 
