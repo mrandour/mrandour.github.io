@@ -9,11 +9,12 @@ nav_order:
 
 <h4>Upcoming</h4>
   <ul>
-  <li><strong>2026</strong>: <em>GandALF 2027 (organizer, PC co-chair)</em>.</li>
-  <li><strong>2026</strong>: <em>GDR IFM 20th anniversary (Paris), GandALF 2026 (PC co-chair)</em>.</li>
+  <li><strong>2027</strong>: <em>GandALF 2027 (organizer, PC co-chair)</em>.</li>
+  <li><strong>2026</strong>: <em>Workshop on AI in Maths & CS Research (co-chair)</em>.</li>
   </ul>
    <h4>Past</h4>
   <ul>
+  <li><strong>2026</strong>: <em>GDR IFM 20th anniversary (Paris), GandALF 2026 (PC co-chair)</em>.</li>
   <li><strong>2025</strong>: CONCUR 2025 (PC member, Aarhus), RP 2025 (Invited speaker, Madrid).</li>
   <li><strong>2024</strong>: MOVEP 2024 (PC member, Rennes), Dagstuhl seminar "Stochastic Games" (Dagstuhl), Highlights 2024 (Bordeaux), GT Vérif (Lille).</li>
   <li><strong>2023</strong>: IJCAI 2023 (Macao), EUMAS 2023 (PC member, Naples), Dagstuhl seminar "The Futures of Reactive Synthesis" (Dagstuhl), GT Vérif 2023 (Paris), Belgian Mathematical Society Young Scholar Day 2023 (Brussels).</li>
